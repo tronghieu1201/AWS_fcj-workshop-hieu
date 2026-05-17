@@ -2,27 +2,32 @@
 title: "Báo cáo thực tập"
 ---
 
-# Báo cáo thực tập
+# BÁO CÁO THỰC TẬP
 
-> ⚠️ **Lưu ý:** Báo cáo này thuộc về **Giáp Trọng Hiếu**. Tất cả nội dung là nguyên bản, được tạo cho chương trình thực tập First Cloud AI Journey.
 
----
 
 ### Thông tin sinh viên
 
-| | |
-|---|---|
-| **Họ và tên** | Giáp Trọng Hiếu |
-| **MSSV** | 2280600941 |
-| **Trường** | Đại học Hutech |
-| **Lớp** | 22DTHG8 |
-| **Ngày sinh** | 17/04/2004 |
-| **Email** | tronghi.dev16@gmail.com |
-| **SĐT** | 0342157165 |
-| **Vị trí thực tập** | Workforce Bootcamp - First Cloud AI Journey |
-| **Thời gian thực tập** | 12 Tuần |
-
-![Ảnh đại diện](images/avatar.png)
+<div class="profile-info-section student-info-card">
+  <div class="profile-avatar student-photo-wrapper">
+    <img class="student-photo" src="images/avatar.jpg?v=2" alt="Ảnh đại diện">
+  </div>
+  <div class="profile-details student-table-wrapper">
+    <table class="student-info-table">
+      <tbody>
+        <tr><td><strong>Họ và tên</strong></td><td>Giáp Trọng Hiếu</td></tr>
+        <tr><td><strong>MSSV</strong></td><td>2280600941</td></tr>
+        <tr><td><strong>Trường</strong></td><td>Đại học Hutech</td></tr>
+        <tr><td><strong>Lớp</strong></td><td>22DTHG8</td></tr>
+        <tr><td><strong>Ngày sinh</strong></td><td>17/04/2004</td></tr>
+        <tr><td><strong>Email</strong></td><td><a href="mailto:tronghi.dev16@gmail.com">tronghi.dev16@gmail.com</a></td></tr>
+        <tr><td><strong>SĐT</strong></td><td>0342157165</td></tr>
+        <tr><td><strong>Vị trí thực tập</strong></td><td>Workforce Bootcamp - First Cloud AI Journey</td></tr>
+        <tr><td><strong>Thời gian thực tập</strong></td><td>12 Tuần</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 ---
 

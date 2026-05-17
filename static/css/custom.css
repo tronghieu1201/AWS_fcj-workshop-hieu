@@ -1,75 +1,606 @@
+/* ============================================================
+   FIX: Override Novecento Sans Wide với font hỗ trợ tiếng Việt
+   Đặt file này tại: static/css/custom.css
+   ============================================================ */
+
+/* Import Be Vietnam Pro - font thiết kế riêng cho tiếng Việt */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 
+   Trick: Khai báo @font-face giả với tên "Novecento Sans Wide"
+   để ghi đè font gốc của theme bằng Be Vietnam Pro.
+   Trình duyệt sẽ dùng Be Vietnam Pro ở mọi nơi theme gọi Novecento.
+*/
+@font-face {
+    font-family: "Novecento Sans Wide";
+    src: local("Be Vietnam Pro"),
+         url('https://fonts.gstatic.com/s/bevietnampro/v11/QdVPSTAyLFyeg_IDWvOJmVES_HwyPRs.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Novecento Sans Wide";
+    src: local("Be Vietnam Pro"),
+         url('https://fonts.gstatic.com/s/bevietnampro/v11/QdVPSTAyLFyeg_IDWvOJmVES_HwyPRs.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Novecento Sans Wide";
+    src: local("Be Vietnam Pro"),
+         url('https://fonts.gstatic.com/s/bevietnampro/v11/QdVPSTAyLFyeg_IDWvOJmVES_HwyPRs.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Novecento Sans Wide";
+    src: local("Be Vietnam Pro"),
+         url('https://fonts.gstatic.com/s/bevietnampro/v11/QdVPSTAyLFyeg_IDWvOJmVES_HwyPRs.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Novecento Sans Wide";
+    src: local("Be Vietnam Pro"),
+         url('https://fonts.gstatic.com/s/bevietnampro/v11/QdVPSTAyLFyeg_IDWvOJmVES_HwyPRs.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Removed any global zoom to avoid scaling the entire site */
+
+
+@font-face {
+    font-family: "Novecento Sans Wide";
+    src: local("Be Vietnam Pro"),
+         url('https://fonts.gstatic.com/s/bevietnampro/v11/QdVPSTAyLFyeg_IDWvOJmVES_HwyPRs.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Đảm bảo toàn bộ heading và body dùng Be Vietnam Pro */
+body,
+h1, h2, h3, h4, h5, h6,
+#body h1, #body h2, #body h3,
+p, td, th, li, a, label {
+    font-family: 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif !important;
+}
+
+/* Shrink avatar image if_shortcode style fails */
+img[src$="avatar.jpg"],
+img[src*="/avatar.jpg"],
+img[alt="Ảnh đại diện"],
+img[alt="Profile Picture"] {
+    display: block !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.profile-info-section {
+    display: flex;
+    align-items: stretch;
+    gap: 1.75rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.profile-avatar {
+    flex: 0 0 25%;
+    min-width: 220px;
+    max-width: 320px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    background: #f5f5f5;
+    box-shadow: 0 24px 40px rgba(0, 0, 0, 0.09);
+    display: flex;
+    align-items: stretch;
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    display: block;
+}
+
+.profile-avatar img[src$="avatar.jpg"],
+.profile-avatar img[src*="/avatar.jpg"],
+.profile-avatar img[alt="Ảnh đại diện"],
+.profile-avatar img[alt="Profile Picture"] {
+    height: 100% !important;
+}
+
+.profile-details {
+    flex: 1 1 75%;
+    min-width: 300px;
+    display: flex;
+    align-items: stretch;
+}
+
+.profile-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-details td {
+    padding: 1rem 1.25rem;
+    vertical-align: middle;
+}
+
+.profile-details tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.profile-details tr:last-child {
+    border-bottom: none;
+}
+
+.profile-details tr:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.profile-details tr:nth-child(even) {
+    background: #ffffff;
+}
+
+/* ============================================================
+   Cloud Ocean theme overrides
+   ============================================================ */
 :root {
-  --MAIN-TEXT-color: #323235;
-  --MAIN-TITLES-TEXT-color: #778ba5;
-  --MAIN-LINK-color: #4881cd;
-  --MAIN-LINK-HOVER-color: #599af1;
-  --MAIN-ANCHOR-color: #4881cd;
-  --MENU-HEADER-BG-color: #283e5b;
-  --MENU-HEADER-BORDER-color: #435c7c;
-  --MENU-SEARCH-BG-color: #202c3c;
-  --MENU-SEARCH-BOX-color: #4d6584;
-  --MENU-SEARCH-BOX-ICONS-color: #4d6584;
-  --MENU-SECTIONS-ACTIVE-BG-color: #0a0c0e;
-  --MENU-SECTIONS-BG-color: #1c222a;
-  --MENU-SECTIONS-LINK-color: #ccc;
-  --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;
-  --MENU-SECTION-ACTIVE-CATEGORY-color: #777;
-  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff;
-  --MENU-VISITED-color: #33a1ff;
-  --MENU-SECTION-HR-color: #20272b;
+    --BODY-BG-color: #eaf4fb;
+    --CONTENT-BG-color: rgba(255, 255, 255, 0.95);
+    --MAIN-TEXT-color: #153047;
+    --MAIN-LINK-color: #2f83c8;
+    --MAIN-LINK-HOVER-color: #1d6bb4;
+    --MENU-HEADER-BG-color: #1b4f78;
+    --MENU-SEARCH-BG-color: #173f62;
+    --MENU-SECTIONS-BG-color: linear-gradient(180deg, #173f62 0%, #122f47 100%);
+    --MENU-SECTIONS-LINK-color: #dbeaf7;
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #8cc6f8;
+    --MENU-SECTION-HR-color: rgba(255, 255, 255, 0.12);
+    --MENU-HOME-TOP-SEPARATOR-color: rgba(255, 255, 255, 0.08);
+    --PRIMARY-color: #2f83c8;
+    --SECONDARY-color: #7cc2ff;
+    --SECONDARY-HOVER-color: #9ad7ff;
+    --CARD-BG-color: rgba(255, 255, 255, 0.96);
+    --CARD-BORDER-color: rgba(62, 106, 141, 0.18);
+    --CARD-SHADOW-color: rgba(20, 46, 69, 0.12);
+}
+
+body {
+    background: var(--BODY-BG-color) !important;
+    color: var(--MAIN-TEXT-color) !important;
 }
 
 #sidebar {
-  background-color: var(--MENU-SECTIONS-BG-color) !important;
+    background: var(--MENU-SECTIONS-BG-color) !important;
+    color: var(--MENU-SECTIONS-LINK-color) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 #sidebar #header-wrapper {
-  background: var(--MENU-HEADER-BG-color) !important;
-  border-color: var(--MENU-HEADER-BORDER-color) !important;
+    background: var(--MENU-HEADER-BG-color) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 #sidebar .searchbox {
-  border-color: var(--MENU-SEARCH-BOX-color) !important;
-  background: var(--MENU-SEARCH-BG-color) !important;
+    background: var(--MENU-SEARCH-BG-color) !important;
+    border: 1px solid rgba(255, 255, 255, 0.14) !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+#sidebar .searchbox input {
+    background: rgba(255, 255, 255, 0.08) !important;
+    color: rgba(255, 255, 255, 0.95) !important;
+    border-color: transparent !important;
+}
+
+#sidebar .searchbox input::placeholder {
+    color: rgba(255, 255, 255, 0.72) !important;
 }
 
 #sidebar .searchbox label,
 #sidebar .searchbox span,
-#sidebar .searchbox input {
-  color: rgba(255, 255, 255, 0.9) !important;
+#sidebar .searchbox i {
+    color: rgba(255, 255, 255, 0.88) !important;
 }
 
-#sidebar a {
-  color: var(--MENU-SECTIONS-LINK-color) !important;
+#sidebar .topics a {
+    color: var(--MENU-SECTIONS-LINK-color) !important;
 }
 
-#sidebar a:hover {
-  color: var(--MENU-SECTIONS-LINK-HOVER-color) !important;
+#sidebar .topics a:hover,
+#sidebar .topics a:focus {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.06) !important;
 }
 
-#sidebar ul li.active > a {
-  background: var(--MENU-SECTION-ACTIVE-CATEGORY-BG-color) !important;
-  color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
+#sidebar .dd-item.active > a,
+#sidebar .dd-item.active > a:hover,
+#sidebar .dd-item.active > a:focus,
+#sidebar .active > a {
+    color: var(--MENU-SECTION-ACTIVE-CATEGORY-color) !important;
 }
 
-#sidebar hr {
-  border-color: var(--MENU-SECTION-HR-color) !important;
+#sidebar .topics li {
+    border-color: var(--MENU-SECTION-HR-color) !important;
 }
 
-.searchbox {
-  border-color: var(--MENU-SEARCH-BOX-color) !important;
-  background: var(--MENU-SEARCH-BG-color) !important;
+#content,
+#body,
+#body-inner,
+#body .padding {
+    background: transparent !important;
 }
 
-#sidebar #footer h2.github-title {
-  color: #fd9827 !important;
+#body-inner {
+    background: var(--CONTENT-BG-color) !important;
+    box-shadow: 0 26px 60px rgba(20, 46, 69, 0.12);
+    border-radius: 1.5rem;
 }
 
-#sidebar {
-  width: 300px !important;
+/* Student Information compact layout - overrides previous flex rules */
+.student-info-card {
+    display: grid !important;
+    grid-template-columns: 240px minmax(0, 1fr) !important;
+    gap: 24px !important;
+    align-items: start !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 20px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #D7E3F1 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 28px rgba(11, 31, 51, 0.08) !important;
+    box-sizing: border-box !important;
 }
 
-#header #logo-svg {
-  width: 8rem !important;
-  height: 2rem !important;
+.student-photo-wrapper {
+    width: 240px !important;
+    max-width: 240px !important;
+}
+
+.student-photo {
+    width: 100% !important;
+    max-width: 240px !important;
+    height: 340px !important;
+    display: block !important;
+    object-fit: cover !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 24px rgba(11, 31, 51, 0.14) !important;
+}
+
+.student-table-wrapper {
+    min-width: 0 !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+}
+
+.student-table-wrapper table {
+    width: 100% !important;
+    margin: 0 !important;
+    table-layout: fixed !important;
+    border-collapse: collapse !important;
+    font-size: 0.95rem !important;
+}
+
+.student-table-wrapper table td,
+.student-table-wrapper table th {
+    padding: 12px 16px !important;
+    line-height: 1.45 !important;
+    vertical-align: middle !important;
+}
+
+.student-table-wrapper table td:first-child,
+.student-table-wrapper table th:first-child {
+    width: 32% !important;
+    min-width: 180px !important;
+    font-weight: 700 !important;
+    color: #0B1F33 !important;
+}
+
+.student-table-wrapper table td:last-child,
+.student-table-wrapper table th:last-child {
+    width: 68% !important;
+    color: #0B1F33 !important;
+}
+
+@media (min-width: 1024px) {
+    .student-info-card {
+        grid-template-columns: 240px minmax(0, 1fr) !important;
+    }
+
+    .student-photo-wrapper { width: 240px !important; }
+    .student-photo { max-width: 240px !important; height: 340px !important; }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .student-info-card { grid-template-columns: 220px minmax(0, 1fr) !important; gap: 20px !important; padding: 18px !important; }
+    .student-photo-wrapper { width: 220px !important; }
+    .student-photo { max-width: 220px !important; height: 320px !important; }
+    .student-table-wrapper table { font-size: 0.9rem !important; }
+    .student-table-wrapper table td, .student-table-wrapper table th { padding: 10px 14px !important; }
+}
+
+@media (max-width: 899px) {
+    .student-info-card { grid-template-columns: 1fr !important; gap: 18px !important; padding: 16px !important; }
+    .student-photo-wrapper { width: 100% !important; max-width: 260px !important; margin: 0 auto !important; }
+    .student-photo { max-width: 260px !important; height: 340px !important; margin: 0 auto !important; }
+    .student-table-wrapper { width: 100% !important; }
+}
+
+/* Ensure existing profile classes don't force wrapping — only override when not using student-info-card */
+.profile-avatar { min-width: 0 !important; }
+.profile-details { min-width: 0 !important; }
+
+/* make sure the student-info wrapper (when present) uses grid */
+.profile-info-section.student-info-card { display: grid !important; }
+
+/* Content spacing for home page and section breathing room */
+#body-inner {
+    background: var(--CONTENT-BG-color) !important;
+    box-shadow: 0 26px 60px rgba(20, 46, 69, 0.12);
+    border-radius: 1.5rem;
+    padding: 32px 24px 40px !important;
+}
+
+#body-inner h3 {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+#body-inner hr {
+    margin: 36px 0 !important;
+    border: none !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.student-info-card {
+    padding: 24px !important;
+    margin-bottom: 36px !important;
+}
+
+#body h1,
+#body h2,
+#body h3,
+#body h4,
+#body h5,
+#body h6 {
+    color: var(--MAIN-TEXT-color) !important;
+}
+
+/* Fix content links: remove badge/button style */
+#body a,
+#body-inner a,
+main a,
+.content a,
+article a,
+.page a,
+#body ol a,
+#body ul a,
+#body-inner ol a,
+#body-inner ul a,
+main ol a,
+main ul a,
+.content ol a,
+.content ul a,
+article ol a,
+article ul a,
+.page ol a,
+.page ul a,
+#body table a,
+#body table td a,
+#body-inner table a,
+#body-inner table td a {
+    color: inherit !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border: none !important;
+    text-decoration: none !important;
+    display: inline !important;
+}
+
+#body a.highlight,
+#body a.highlight:hover,
+#body a.highlight:focus,
+#body a.highlight:active {
+    color: inherit !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    text-decoration: none !important;
+    outline: none !important;
+    outline: 0 !important;
+    display: inline !important;
+}
+
+#body a.highlight:after {
+    display: none !important;
+    content: none !important;
+}
+
+#body a:hover,
+#body-inner a:hover,
+main a:hover,
+.content a:hover,
+article a:hover,
+.page a:hover,
+#body ol a:hover,
+#body ul a:hover,
+#body-inner ol a:hover,
+#body-inner ul a:hover,
+main ol a:hover,
+main ul a:hover,
+.content ol a:hover,
+.content ul a:hover,
+article ol a:hover,
+article ul a:hover,
+.page ol a:hover,
+.page ul a:hover,
+#body table a:hover,
+#body table td a:hover,
+#body-inner table a:hover,
+#body-inner table td a:hover {
+    color: inherit !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    text-decoration: underline !important;
+}
+
+#body a:visited,
+#body-inner a:visited,
+main a:visited,
+.content a:visited,
+article a:visited,
+.page a:visited,
+#body table a:visited,
+#body table td a:visited,
+#body-inner table a:visited,
+#body-inner table td a:visited {
+    color: inherit !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* Preserve sidebar/menu link style */
+#sidebar a,
+#menu a,
+.sidebar a,
+.book-menu a {
+    display: initial !important;
+}
+
+#body table {
+    background: rgba(255, 255, 255, 0.93) !important;
+    border: 1px solid rgba(20, 46, 69, 0.1) !important;
+}
+
+#body th,
+#body td,
+.profile-details td {
+    border-color: rgba(45, 92, 132, 0.12) !important;
+}
+
+#body th {
+    background: rgba(56, 102, 141, 0.08) !important;
+}
+
+#body blockquote {
+    background: rgba(47, 91, 129, 0.08) !important;
+    border-left: 0.35rem solid rgba(47, 111, 168, 0.65) !important;
+    color: #1d3e53 !important;
+}
+
+#body pre,
+#body code,
+#body .highlight,
+pre code {
+    background: #152a3b !important;
+    color: #d7eef9 !important;
+    border-radius: 0.75rem !important;
+}
+
+#body code {
+    background: rgba(49, 94, 127, 0.15) !important;
+    color: #1a3b52 !important;
+}
+
+#body ::selection,
+#body-inner ::selection,
+main ::selection,
+.content ::selection,
+article ::selection,
+.page ::selection {
+    background: rgba(0, 174, 239, 0.22) !important;
+    color: #0B1F33 !important;
+}
+
+#body::-moz-selection,
+#body-inner::-moz-selection,
+main::-moz-selection,
+.content::-moz-selection,
+article::-moz-selection,
+.page::-moz-selection {
+    background: rgba(0, 174, 239, 0.22) !important;
+    color: #0B1F33 !important;
+}
+
+#body .student-info-table,
+.profile-details table {
+    background: rgba(255, 255, 255, 0.96) !important;
+    border: 1px solid rgba(20, 46, 69, 0.1) !important;
+    border-radius: 1rem !important;
+    box-shadow: 0 18px 30px rgba(20, 46, 69, 0.08) !important;
+}
+
+#body .student-info-table td,
+.profile-details td {
+    border-color: rgba(45, 92, 132, 0.12) !important;
+}
+
+.profile-details tr:nth-child(odd) {
+    background: rgba(47, 91, 129, 0.06) !important;
+}
+
+.profile-details tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.profile-info-section {
+    background: rgba(255, 255, 255, 0.68) !important;
+    padding: 1.25rem !important;
+    border-radius: 1.25rem !important;
+    border: 1px solid rgba(20, 46, 69, 0.08) !important;
+}
+
+.profile-avatar {
+    background: linear-gradient(180deg, rgba(34, 93, 145, 0.12), rgba(16, 45, 82, 0.16)) !important;
+}
+
+#sidebar-toggle {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid rgba(20, 46, 69, 0.12) !important;
+    border-radius: 999px !important;
+    padding: 0.65rem 1rem !important;
+    color: var(--MAIN-TEXT-color) !important;
+}
+
+#sidebar-toggle:hover,
+#sidebar-toggle:focus {
+    background: rgba(255, 255, 255, 1) !important;
+}
+
+@media (max-width: 900px) {
+    .profile-info-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .profile-avatar {
+        width: 100%;
+        max-width: none;
+    }
+
+    .profile-avatar img {
+        height: auto;
+    }
+
+    .profile-details {
+        width: 100%;
+    }
+
+    #body-inner {
+        padding: 1.5rem 1rem !important;
+    }
 }
