@@ -1,6 +1,6 @@
 {{ $imagesParam := .Get "images" | default (.Get "src") }}
 {{ $label := .Get "label" | default "Xem minh chung" }}
-{{ $id := printf "evidence-%d" .Ordinal }}
+{{ $id := printf "evidence-gallery-%d" .Ordinal }}
 {{ $images := split $imagesParam "," }}
 
 <button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('{{ $id }}')">{{ $label }}</button>
