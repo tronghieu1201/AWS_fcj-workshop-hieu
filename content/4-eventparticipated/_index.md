@@ -12,7 +12,12 @@ Events, seminars, webinars, and community activities participated in during the 
 
 | # | Event Name | Date | Location | Role |
 |---|---|---|---|---|
-| 1 | [Event 1](4.1-event1.md) | | | |
+| 1 | [FCAJ Community Day - Tháng 5](4.1-event1.md) | 23/05/2026 | Bitexco Financial Tower | Attendee |
 | 2 | Event 2 | | | |
 | 3 | Event 3 | | | |
 | 4 | Event 4 | | | |
+
+
+
+
+
