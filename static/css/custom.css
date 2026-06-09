@@ -868,6 +868,12 @@ article::-moz-selection,
     border-color: rgba(45, 92, 132, 0.12) !important;
 }
 
+#body .student-info-table td a[href^="mailto:"],
+.profile-details td a[href^="mailto:"] {
+    color: #0969da !important;
+    text-decoration: underline !important;
+}
+
 .profile-details tr:nth-child(odd) {
     background: rgba(47, 91, 129, 0.06) !important;
 }

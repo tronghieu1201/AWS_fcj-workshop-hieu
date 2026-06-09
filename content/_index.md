@@ -16,14 +16,15 @@ title: "Internship Report"
     <table class="student-info-table">
       <tbody>
         <tr><td><strong>Full Name</strong></td><td>Giáp Trọng Hiếu</td></tr>
-        <tr><td><strong>Student ID</strong></td><td>2280600941</td></tr>
-        <tr><td><strong>University</strong></td><td>Hutech University</td></tr>
-        <tr><td><strong>Class</strong></td><td>22DTHG8</td></tr>
         <tr><td><strong>Date of Birth</strong></td><td>17/04/2004</td></tr>
-        <tr><td><strong>Email</strong></td><td><a href="mailto:tronghi.dev16@gmail.com">tronghi.dev16@gmail.com</a></td></tr>
+        <tr><td><strong>Student ID</strong></td><td>2280600941</td></tr>
+        <tr><td><strong>Class</strong></td><td>22DTHG8</td></tr>
+        <tr><td><strong>Major</strong></td><td>Information Technology</td></tr>
+        <tr><td><strong>Specialization</strong></td><td>Software Engineering</td></tr>
+        <tr><td><strong>Email</strong></td><td><a href="mailto:tronghi.dev16@gmail.com" style="color: #0969da;">tronghi.dev16@gmail.com</a></td></tr>
         <tr><td><strong>Phone</strong></td><td>0342157165</td></tr>
         <tr><td><strong>Internship Position</strong></td><td>Workforce Bootcamp - First Cloud AI Journey</td></tr>
-        <tr><td><strong>Internship Duration</strong></td><td>12 Weeks</td></tr>
+        <tr><td><strong>Internship Duration</strong></td><td>17/04/2026 - 10/07/2026</td></tr>
       </tbody>
     </table>
   </div>
