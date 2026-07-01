@@ -1,0 +1,3314 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nhật ký công việc on Báo cáo thực tập</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/</link><description>Recent content in Nhật ký công việc on Báo cáo thực tập</description><generator>Hugo</generator><language>vi</language><atom:link href="https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tuần 1 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.1-week1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.1-week1/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 1&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Tài khoản AWS, quản lý chi phí, hỗ trợ AWS và IAM&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-1"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 1&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Làm quen với nhóm FCAJ và đọc quy định thực tập&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;WhatsApp / Quy định thực tập&lt;/td&gt;
+ &lt;td&gt;Nắm được cách trao đổi, quy định thực tập và yêu cầu báo cáo&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Tạo mới Tài khoản AWS&lt;/td&gt;
+ &lt;td&gt;000001&lt;/td&gt;
+ &lt;td&gt;AWS Account / Billing&lt;/td&gt;
+ &lt;td&gt;Làm quen với AWS Free Tier, tài khoản AWS, bảng điều khiển AWS và khu vực thanh toán&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000001.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Quản lý chi phí với AWS Budget&lt;/td&gt;
+ &lt;td&gt;000007&lt;/td&gt;
+ &lt;td&gt;AWS Budgets&lt;/td&gt;
+ &lt;td&gt;Tạo ngân sách, thiết lập cảnh báo và theo dõi chi phí sử dụng AWS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000007.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Yêu cầu hỗ trợ với AWS Support&lt;/td&gt;
+ &lt;td&gt;000009&lt;/td&gt;
+ &lt;td&gt;AWS Support&lt;/td&gt;
+ &lt;td&gt;Tìm hiểu trung tâm hỗ trợ, các gói hỗ trợ và cách tạo yêu cầu hỗ trợ&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000009.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Quản trị quyền truy cập với AWS IAM&lt;/td&gt;
+ &lt;td&gt;000002&lt;/td&gt;
+ &lt;td&gt;AWS IAM&lt;/td&gt;
+ &lt;td&gt;Tìm hiểu người dùng, nhóm, vai trò và chính sách phân quyền trong AWS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000002.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tạo mới Tài khoản AWS&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-0')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week01-aws-console-home.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Quản lý chi phí với AWS Budget&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-1')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week01-budget.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Yêu cầu hỗ trợ với AWS Support&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-2')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week01-aws-support.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Quản trị quyền truy cập với AWS IAM&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-3')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-3" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-3', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-3', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week01-iam.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AWS Account:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo tài khoản AWS mới và đăng nhập thành công vào AWS Management Console.&lt;/li&gt;
+&lt;li&gt;Kiểm tra thông tin tài khoản, trạng thái Free Plan, số credits và làm quen với giao diện Console Home.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Budgets:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách theo dõi chi phí sử dụng AWS.&lt;/li&gt;
+&lt;li&gt;Tạo ngân sách và cấu hình cảnh báo chi phí để tránh phát sinh ngoài kế hoạch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Support:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Truy cập AWS Support Center để tìm hiểu khu vực hỗ trợ.&lt;/li&gt;
+&lt;li&gt;Kiểm tra gói hỗ trợ hiện tại của tài khoản và xem danh sách các support case.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS IAM:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu IAM User, Group, Role và Policy.&lt;/li&gt;
+&lt;li&gt;Nắm được cách phân quyền truy cập dịch vụ AWS theo nguyên tắc bảo mật cơ bản.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo thành công tài khoản AWS và đăng nhập được vào AWS Management Console.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kiểm tra được thông tin tài khoản, trạng thái Free Plan và số credits còn lại.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo và cấu hình được AWS Budget để theo dõi chi phí.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Truy cập được AWS Support Center và kiểm tra gói hỗ trợ hiện tại.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò cơ bản của IAM trong việc quản lý quyền truy cập AWS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 1
+&lt;/div&gt;</description></item><item><title>Tuần 2 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.2-week2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.2-week2/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 1&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Mạng AWS, IAM Role, Route 53 và AWS CLI&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-2"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 2&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Tìm hiểu Amazon VPC&lt;/td&gt;
+ &lt;td&gt;000003&lt;/td&gt;
+ &lt;td&gt;Amazon VPC / Subnet / Route Table / Internet Gateway&lt;/td&gt;
+ &lt;td&gt;Nắm được các thành phần mạng cơ bản trong AWS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000003.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Tiếp theo: cấu hình Amazon VPC&lt;/td&gt;
+ &lt;td&gt;000003&lt;/td&gt;
+ &lt;td&gt;Amazon VPC / Public Subnet / Private Subnet / Security Group&lt;/td&gt;
+ &lt;td&gt;Thực hành cấu hình mạng cơ bản trong VPC&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000003.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Cấp quyền bằng IAM Roles for EC2&lt;/td&gt;
+ &lt;td&gt;000048&lt;/td&gt;
+ &lt;td&gt;IAM Role / EC2 / IAM Policy&lt;/td&gt;
+ &lt;td&gt;Hiểu cách cấp quyền cho EC2 bằng IAM Role&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000048.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Quản lý DNS với Amazon Route 53&lt;/td&gt;
+ &lt;td&gt;000010&lt;/td&gt;
+ &lt;td&gt;Amazon Route 53 / DNS / Hosted Zone / Resolver&lt;/td&gt;
+ &lt;td&gt;Tìm hiểu cách quản lý DNS và mô hình Hybrid DNS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000010.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Thao tác với AWS CLI&lt;/td&gt;
+ &lt;td&gt;000011&lt;/td&gt;
+ &lt;td&gt;AWS CLI / EC2 / IAM / S3&lt;/td&gt;
+ &lt;td&gt;Sử dụng AWS CLI để thao tác với dịch vụ AWS bằng dòng lệnh&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000011.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Kiến thức cơ bản về mạng với Amazon VPC&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-%20VPCs.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Subnet.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Internet-Gateway.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Route-Table.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 4
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Cấp quyền ứng dụng với IAM Roles for EC2&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-iam-role-attached-ec2.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Quản lý DNS lai với Amazon Route 53&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-tao-keypair.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-CloudFormation-Template.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Security-Group.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-add-RDGW.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-DNS.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Route53-Outbound-endpoints.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Route53-Inbound-endpoints.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-check-nslookup.png"
+ alt="Minh chung 8"
+ class="evidence-gallery-image"
+ data-evidence-index="7"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-2', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-2', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 8
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thao tác dòng lệnh với AWS CLI&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-3')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-3" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-cli-compact-evidence-cleanup.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mạng AWS:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu các thành phần mạng cơ bản trong AWS gồm Amazon VPC, subnet, route table và Internet Gateway.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo VPC, bật DNS resolution và DNS hostnames.&lt;/li&gt;
+&lt;li&gt;Cấu hình subnet, route table và Internet Gateway để xây dựng mô hình mạng cơ bản.&lt;/li&gt;
+&lt;li&gt;Sử dụng VPC Resource Map để quan sát tổng quan tài nguyên mạng.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IAM Role:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách cấp quyền cho EC2 truy cập dịch vụ AWS bằng IAM Role.&lt;/li&gt;
+&lt;li&gt;So sánh cách sử dụng Access Key trực tiếp với cách sử dụng IAM Role.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo IAM Role, gán policy S3 và attach role vào EC2 instance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Route 53:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu mô hình Hybrid DNS giữa môi trường AWS và hệ thống DNS nội bộ/on-premise.&lt;/li&gt;
+&lt;li&gt;Khởi tạo hạ tầng lab bằng CloudFormation.&lt;/li&gt;
+&lt;li&gt;Tạo Route 53 Resolver Outbound Endpoint, Inbound Endpoint và Resolver Rule.&lt;/li&gt;
+&lt;li&gt;Kiểm tra phân giải DNS bằng &lt;code&gt;nslookup&lt;/code&gt; và kiểm tra kết nối bằng &lt;code&gt;ping&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS CLI:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách sử dụng AWS CLI để thao tác với dịch vụ AWS bằng dòng lệnh.&lt;/li&gt;
+&lt;li&gt;Kiểm tra AWS CLI trên EC2 và xác minh credentials được lấy từ IAM Role.&lt;/li&gt;
+&lt;li&gt;Thao tác với S3, SNS, IAM, VPC và EC2 bằng command line.&lt;/li&gt;
+&lt;li&gt;Dọn dẹp tài nguyên sau khi hoàn thành lab.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của Amazon VPC trong việc tạo môi trường mạng riêng trên AWS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo và cấu hình được VPC cơ bản theo yêu cầu bài thực hành.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách bật DNS resolution và DNS hostnames cho VPC.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của IAM Role trong việc cấp quyền cho EC2.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo và attach được IAM Role vào EC2.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được mô hình Hybrid DNS và vai trò của Amazon Route 53 Resolver.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được Outbound Endpoint, Inbound Endpoint và Resolver Rule.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kiểm tra thành công phân giải DNS bằng &lt;code&gt;nslookup&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Sử dụng được AWS CLI để kiểm tra và quản lý tài nguyên AWS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách dọn dẹp tài nguyên sau khi thực hành để tránh phát sinh chi phí.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 2
+&lt;/div&gt;</description></item><item><title>Tuần 3 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.3-week3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.3-week3/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 1&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Compute - EC2, Kiro CLI, Lightsail và Auto Scaling&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-3"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 3&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Deploy ứng dụng trên Amazon EC2&lt;/td&gt;
+ &lt;td&gt;000004&lt;/td&gt;
+ &lt;td&gt;Amazon EC2 / Security Group / SSH / RDP / EBS / AMI / Web Server&lt;/td&gt;
+ &lt;td&gt;Tạo EC2 Linux và Windows, kết nối vào instance, thực hành Snapshot/AMI và triển khai web server cơ bản&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000004.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Đổi Cloud9 sang thực hiện Kiro CLI thay thế&lt;/td&gt;
+ &lt;td&gt;000049 / Bonus&lt;/td&gt;
+ &lt;td&gt;AWS Cloud9 / Kiro CLI / VS Code Terminal&lt;/td&gt;
+ &lt;td&gt;Ghi nhận Cloud9 không khả dụng với tài khoản mới, cài đặt và sử dụng Kiro CLI để làm quen môi trường AI coding trên terminal&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000049.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Triển khai ứng dụng với Amazon Lightsail&lt;/td&gt;
+ &lt;td&gt;000045&lt;/td&gt;
+ &lt;td&gt;Amazon Lightsail / Instance / Database / Snapshot / Alarm&lt;/td&gt;
+ &lt;td&gt;Tạo ứng dụng trên Lightsail, cấu hình database, snapshot, alarm và tìm hiểu cách kiểm soát chi phí compute&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000045.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Tạo Launch Template, ALB và Target Group&lt;/td&gt;
+ &lt;td&gt;000006&lt;/td&gt;
+ &lt;td&gt;Launch Template / Application Load Balancer / Target Group&lt;/td&gt;
+ &lt;td&gt;Chuẩn bị hạ tầng cho ứng dụng có khả năng mở rộng&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000006.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Tạo và kiểm thử EC2 Auto Scaling Group&lt;/td&gt;
+ &lt;td&gt;000006&lt;/td&gt;
+ &lt;td&gt;EC2 Auto Scaling / ALB / Scaling Policy / Cleanup&lt;/td&gt;
+ &lt;td&gt;Kiểm thử khả năng tự động mở rộng và dọn dẹp tài nguyên&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000006.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deploy ứng dụng trên Amazon EC2&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-VPC-Windows.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-VPC-Linux.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-Windows-instance-RDP.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-Linux-EC2-instance.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 4
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dùng Kiro CLI trên VS Code Terminal&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-check-versionKIRO.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-openKIRO.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-khoitaoKIRO.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-1', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-1', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 3
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tối ưu chi phí compute với Amazon Lightsail&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-01.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-02.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-03.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-2', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-2', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 3
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Triển khai WordPress và PrestaShop trên Lightsail&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-3')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-3" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-db-available.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-db-endpoint.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-prestashop-admin-dashboard.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-prestashop-blueprint.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-prestashop-static-ip-created.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-prestashop-storefront.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-wordpress-dashboard.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-wordpress-instance-running.png"
+ alt="Minh chung 8"
+ class="evidence-gallery-image"
+ data-evidence-index="7"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-wordpress-ssh-open.png"
+ alt="Minh chung 9"
+ class="evidence-gallery-image"
+ data-evidence-index="8"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-wordpress-static-ip.png"
+ alt="Minh chung 10"
+ class="evidence-gallery-image"
+ data-evidence-index="9"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-3', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-3', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 10
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Amazon EC2:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo EC2 Windows và Linux, cấu hình Security Group, kết nối bằng RDP/SSH và kiểm tra trạng thái hoạt động.&lt;/li&gt;
+&lt;li&gt;Thực hành EBS Snapshot, Custom AMI và tạo instance mới từ AMI.&lt;/li&gt;
+&lt;li&gt;Cấu hình IAM Role và sử dụng Systems Manager Session Manager để truy cập EC2-Windows trong tình huống mất Key Pair.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Cloud9 / Kiro CLI:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Ghi nhận AWS Cloud9 không khả dụng với tài khoản AWS mới.&lt;/li&gt;
+&lt;li&gt;Cài đặt, đăng nhập và sử dụng Kiro CLI trong VS Code Terminal để tạo project Node.js mẫu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon Lightsail:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Triển khai WordPress và PrestaShop trên Amazon Lightsail.&lt;/li&gt;
+&lt;li&gt;Cấu hình Lightsail Database, Static IP và kiểm tra website qua trình duyệt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auto Scaling:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Triển khai mô hình ứng dụng EC2 có Load Balancer và Auto Scaling.&lt;/li&gt;
+&lt;li&gt;Cấu hình Launch Template, Target Group, ALB và Auto Scaling Group.&lt;/li&gt;
+&lt;li&gt;Kiểm thử truy cập ứng dụng thông qua Load Balancer DNS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo và kết nối thành công EC2 Windows bằng RDP, EC2 Linux bằng SSH.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Thực hành được Snapshot, Custom AMI và tạo instance mới từ AMI.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Truy cập được EC2-Windows bằng AWS Systems Manager khi mất Key Pair.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cài đặt và đăng nhập thành công Kiro CLI.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo và chạy được project Node.js mẫu bằng Kiro CLI.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được database, instance và Static IP trên Lightsail.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Truy cập được WordPress và PrestaShop.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Đăng nhập được trang quản trị của các website đã triển khai.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được Launch Template, ALB, Target Group và Auto Scaling Group.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Truy cập được ứng dụng qua Load Balancer DNS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Nắm được quy trình tự động mở rộng EC2 bằng Auto Scaling.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Dọn dẹp tài nguyên sau khi hoàn thành lab để tránh phát sinh chi phí.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 3
+&lt;/div&gt;</description></item><item><title>Tuần 4 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.4-week4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.4-week4/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 1&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Chủ đề:&lt;/strong&gt; Storage, Database, Monitoring và định hướng Project cá nhân trên AWS&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-4"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 4&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Host website tĩnh với Amazon S3&lt;/td&gt;
+ &lt;td&gt;000057&lt;/td&gt;
+ &lt;td&gt;Amazon S3 / Static Website / CloudFront&lt;/td&gt;
+ &lt;td&gt;Tạo bucket, upload website tĩnh và cấu hình truy cập website&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000057.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Tạo database với Amazon RDS&lt;/td&gt;
+ &lt;td&gt;000005&lt;/td&gt;
+ &lt;td&gt;Amazon RDS / MySQL / PostgreSQL / DB Subnet Group&lt;/td&gt;
+ &lt;td&gt;Tạo database quan hệ và tìm hiểu cách kết nối ứng dụng với RDS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000005.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Tạo System Monitor với Amazon CloudWatch&lt;/td&gt;
+ &lt;td&gt;000008&lt;/td&gt;
+ &lt;td&gt;Amazon CloudWatch / Metrics / Logs / Alarms&lt;/td&gt;
+ &lt;td&gt;Theo dõi tài nguyên, tạo alarm và giám sát hệ thống&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000008.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Khởi động Project cá nhân: thiết kế nội dung portfolio và build HTML/CSS ban đầu&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;S3 / HTML / CSS / Portfolio&lt;/td&gt;
+ &lt;td&gt;Thiết kế trang portfolio cá nhân, viết nội dung giới thiệu bản thân và upload phiên bản đầu tiên lên S3&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Đang thực hiện&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Host website tĩnh với Amazon S3&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-create-buckets3.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-upload3filebuckets.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-opensrcbuckets.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 3
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tạo database với Amazon RDS&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-Amazon%20Relational%20Database%20Service.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-createRDS_Security_Group.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-createDB_Subnet_Group.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-createRDS_database.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-create_data.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-displaydata.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-1', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-1', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 6
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tạo System Monitor với Amazon CloudWatch&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-awsCloudWatch_Workshop.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws_creatCloudWatch_Workshop.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws_cloudwatch-stack-subnet-resources.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws_cloudwatch-ec2-cpuutilization.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-cloudwatch-alarm-created.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-cloudwatch-sns-confirmation-email.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-cloudwatch-sns-subscription-confirmed.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-2', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-2', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 7
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Project cá nhân - Portfolio v1 trên S3&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Host website tĩnh với Amazon S3:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Thực hành tạo S3 bucket, upload source code và bật Static Website Hosting.&lt;/li&gt;
+&lt;li&gt;Cấu hình quyền truy cập để website có thể truy cập qua trình duyệt.&lt;/li&gt;
+&lt;li&gt;Tìm hiểu vai trò của CloudFront trong việc cache nội dung và tăng tốc độ tải trang.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon RDS:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu vai trò của database quan hệ trong kiến trúc ứng dụng trên AWS.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo database với Amazon RDS và làm quen với DB instance, engine, security group và endpoint.&lt;/li&gt;
+&lt;li&gt;Tạo RDS MySQL trong private subnet và cấu hình DB Subnet Group.&lt;/li&gt;
+&lt;li&gt;Cấu hình Security Group để EC2 kết nối tới RDS qua port 3306.&lt;/li&gt;
+&lt;li&gt;Deploy ứng dụng Node.js trên EC2 và cấu hình .env kết nối tới RDS endpoint.&lt;/li&gt;
+&lt;li&gt;Import dữ liệu mẫu từ users.sql vào database và kiểm tra web app hiển thị dữ liệu từ RDS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon CloudWatch:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu vai trò của CloudWatch trong việc giám sát tài nguyên AWS.&lt;/li&gt;
+&lt;li&gt;Thực hành theo dõi metrics, logs và tạo alarm cơ bản cho hệ thống.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Khởi động Project cá nhân - AWS Cloud Portfolio:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Thiết kế nội dung trang portfolio: giới thiệu bản thân, skills, timeline học AWS.&lt;/li&gt;
+&lt;li&gt;Build HTML/CSS cho trang portfolio, có thể sử dụng AI coding assistant để hỗ trợ.&lt;/li&gt;
+&lt;li&gt;Upload phiên bản đầu tiên lên S3 bucket và truy cập qua endpoint.&lt;/li&gt;
+&lt;li&gt;Đây là nền tảng ban đầu, sẽ được bổ sung thêm Lambda, API Gateway, DynamoDB và CloudFront ở các tuần tiếp theo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Upload source code và truy cập website tĩnh thành công qua endpoint của Amazon S3.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được cách Amazon S3 có thể dùng để host website tĩnh.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của CloudFront trong việc cache nội dung và giảm độ trễ khi phân phối website.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được RDS MySQL database trong private subnet.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kết nối EC2 với RDS thông qua Security Group và RDS endpoint.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Deploy được ứng dụng Node.js trên EC2.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Import dữ liệu mẫu từ &lt;code&gt;users.sql&lt;/code&gt; và hiển thị dữ liệu trên web app.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hoàn thành cleanup EC2, RDS, Security Group, DB Subnet Group và VPC bằng AWS CLI.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Khởi động project cá nhân AWS Cloud Portfolio, hoàn thành phiên bản HTML/CSS đầu tiên và upload lên S3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 4
+&lt;/div&gt;</description></item><item><title>Tuần 5 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.5-week5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.5-week5/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 2 + 3&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Migration, quản trị tài nguyên AWS và bắt đầu build Lambda cho Project cá nhân&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-5"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 5&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Thực hành bảo mật Amazon S3&lt;/td&gt;
+ &lt;td&gt;000069&lt;/td&gt;
+ &lt;td&gt;Amazon S3 / Security / HTTPS / Encryption / Access Analyzer&lt;/td&gt;
+ &lt;td&gt;Tìm hiểu cách bảo vệ dữ liệu trên S3, cấu hình HTTPS, mã hóa và kiểm tra quyền truy cập bucket&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000069.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Quản lý chi phí và giới hạn tài nguyên với IAM&lt;/td&gt;
+ &lt;td&gt;000064&lt;/td&gt;
+ &lt;td&gt;IAM / Cost Control / EC2 / EBS / Region Restriction&lt;/td&gt;
+ &lt;td&gt;Tìm hiểu cách giới hạn quyền sử dụng tài nguyên AWS để kiểm soát chi phí và tránh tạo tài nguyên ngoài phạm vi&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000064.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Quản lý tài nguyên theo nhóm với Tag và Resource Groups&lt;/td&gt;
+ &lt;td&gt;000027&lt;/td&gt;
+ &lt;td&gt;Resource Groups / Tag&lt;/td&gt;
+ &lt;td&gt;Tổ chức và quản lý tài nguyên AWS bằng tag&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000027.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Kiểm soát quyền truy cập EC2 qua Tag trong IAM&lt;/td&gt;
+ &lt;td&gt;000028&lt;/td&gt;
+ &lt;td&gt;IAM / EC2 / Tag&lt;/td&gt;
+ &lt;td&gt;Tìm hiểu cách dùng tag để kiểm soát quyền truy cập EC2&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000028.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Project cá nhân: tạo DynamoDB table và Lambda visitor counter&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;Amazon DynamoDB / AWS Lambda / IAM Role&lt;/td&gt;
+ &lt;td&gt;Tạo backend serverless cơ bản để lưu và tăng số lượt truy cập portfolio&lt;/td&gt;
+ &lt;td&gt;_&lt;/td&gt;
+ &lt;td&gt;Đang làm&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Migrate virtual servers với AWS VM Import/Export&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-S3-Security-Practices.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-create-CloudFormation-Template.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-s3-security-cli-profile-check.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-s3-security-require-https.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 4
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Database Migration với AWS DMS và SCT&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-IAM%20Cost%20Control.png/"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Quản lý tài nguyên theo nhóm với Tag và Resource Groups&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Kiểm soát quyền truy cập EC2 qua Tag trong IAM&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Project cá nhân - DynamoDB table và Lambda visitor counter&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_createDynamoDB.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_create_Lambda_function.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20Grant-Lambda-access-to-DynamoDB.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_projectLambda_count.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20View_CloudWatch_logs.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 5
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Amazon S3 Security:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tạo môi trường lab bằng CloudFormation cho bài thực hành S3 Security.&lt;/li&gt;
+&lt;li&gt;Điều chỉnh template để sử dụng EC2 &lt;code&gt;t3.micro&lt;/code&gt; phù hợp với tài khoản thực hành.&lt;/li&gt;
+&lt;li&gt;Kết nối EC2 lab bằng EC2 Instance Connect và thao tác với AWS CLI.&lt;/li&gt;
+&lt;li&gt;Tạo access key cho &lt;code&gt;SID-lab-user1&lt;/code&gt;, &lt;code&gt;SID-lab-user2&lt;/code&gt; và cấu hình CLI profile &lt;code&gt;user1&lt;/code&gt;, &lt;code&gt;user2&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Kiểm tra quyền truy cập bucket S3 Security Lab và dữ liệu mẫu &lt;code&gt;app1/&lt;/code&gt;, &lt;code&gt;app2/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Cấu hình bucket policy yêu cầu truy cập S3 thông qua HTTPS.&lt;/li&gt;
+&lt;li&gt;Thực hiện cleanup tài nguyên sau khi hoàn thành lab.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IAM Cost Control:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách dùng IAM Policy để giới hạn việc sử dụng tài nguyên AWS.&lt;/li&gt;
+&lt;li&gt;Thực hành giới hạn quyền tạo tài nguyên theo Region, loại EC2 instance và loại EBS volume.&lt;/li&gt;
+&lt;li&gt;Làm quen với IAM Condition để kiểm soát chi phí và tránh tạo tài nguyên ngoài phạm vi cho phép.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tag và Resource Groups:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách dùng Tag để phân loại tài nguyên AWS theo môi trường, chủ sở hữu hoặc mục đích sử dụng.&lt;/li&gt;
+&lt;li&gt;Làm quen với việc gắn tag, lọc tài nguyên theo tag và quản lý tài nguyên theo nhóm.&lt;/li&gt;
+&lt;li&gt;Tìm hiểu Resource Groups để gom các tài nguyên có cùng tag, giúp quản lý và theo dõi dễ hơn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu cách dùng IAM Policy để kiểm soát quyền sử dụng tài nguyên AWS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách giới hạn tạo tài nguyên theo Region.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách giới hạn EC2 theo instance family/size để tránh phát sinh chi phí cao.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách giới hạn loại EBS volume không cần thiết.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Nắm được vai trò của IAM Condition trong kiểm soát chi phí và phân quyền.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo thành công môi trường lab S3 Security bằng CloudFormation.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kết nối được EC2 lab và sử dụng AWS CLI để thao tác with S3.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cấu hình thành công CLI profile cho &lt;code&gt;user1&lt;/code&gt; và &lt;code&gt;user2&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kiểm tra được IAM identity của từng user bằng &lt;code&gt;sts get-caller-identity&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Truy cập được bucket S3 Security Lab và xem được dữ liệu mẫu.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Áp dụng bucket policy yêu cầu truy cập S3 qua HTTPS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cleanup toàn bộ tài nguyên sau lab: CloudFormation, EC2, S3, IAM user/access key và VPC.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của Tag trong việc tổ chức và quản lý tài nguyên AWS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách gắn và lọc tài nguyên theo tag.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách tạo Resource Group dựa trên tag.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Nắm được tag là nền tảng cho quản lý chi phí, phân quyền và kiểm soát tài nguyên.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 5
+&lt;/div&gt;</description></item><item><title>Tuần 6 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.6-week6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.6-week6/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 2 + 3&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Operate - Lambda, CloudWatch, Systems Manager, IaC và kết nối API Gateway cho Project cá nhân&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-6"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 6&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Tắt server tự động và gửi thông báo Slack với AWS Lambda&lt;/td&gt;
+ &lt;td&gt;000022&lt;/td&gt;
+ &lt;td&gt;AWS Lambda / Slack / EventBridge&lt;/td&gt;
+ &lt;td&gt;Tự động hóa thao tác vận hành bằng Lambda&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000022.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;System Monitor nâng cao với CloudWatch và Grafana&lt;/td&gt;
+ &lt;td&gt;000029&lt;/td&gt;
+ &lt;td&gt;CloudWatch / Grafana&lt;/td&gt;
+ &lt;td&gt;Giám sát hệ thống nâng cao bằng CloudWatch và Grafana&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000029.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Session Manager - SSH vào EC2 không cần key pair&lt;/td&gt;
+ &lt;td&gt;000058&lt;/td&gt;
+ &lt;td&gt;Session Manager / EC2 / IAM&lt;/td&gt;
+ &lt;td&gt;Truy cập EC2 an toàn không cần mở port SSH&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000058.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Khởi động Infrastructure as Code với AWS CloudFormation&lt;/td&gt;
+ &lt;td&gt;000037&lt;/td&gt;
+ &lt;td&gt;CloudFormation / IaC&lt;/td&gt;
+ &lt;td&gt;Triển khai hạ tầng AWS bằng code&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000037.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Project cá nhân: tạo API Gateway và kết nối với Lambda visitor counter&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;API Gateway / Lambda / CORS&lt;/td&gt;
+ &lt;td&gt;Tạo API endpoint để frontend portfolio có thể gọi Lambda và nhận visitor count&lt;/td&gt;
+ &lt;td&gt;_&lt;/td&gt;
+ &lt;td&gt;Đang làm&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tắt server tự động và gửi thông báo Slack với AWS Lambda&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;System Monitor nâng cao với CloudWatch và Grafana&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Session Manager - SSH vào EC2 không cần key pair&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Khởi động Infrastructure as Code với AWS CloudFormation&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Project cá nhân - API Gateway kết nối Lambda&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20create_configure_API.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20create_configure_API2.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20create_configure_API3.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20create_configure_API4.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20Test_API.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20CORS.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20CloudWatch_Log_Group.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20CloudWatch_Logevent.png"
+ alt="Minh chung 8"
+ class="evidence-gallery-image"
+ data-evidence-index="7"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 8
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AWS Lambda và Slack:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách sử dụng AWS Lambda để tự động hóa thao tác vận hành EC2.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo IAM Role cấp quyền cho Lambda thao tác với EC2 và CloudWatch Logs.&lt;/li&gt;
+&lt;li&gt;Gắn tag cho EC2 để Lambda nhận diện đúng instance cần bật/tắt.&lt;/li&gt;
+&lt;li&gt;Cấu hình Lambda function để tự động start/stop EC2 theo nhu cầu sử dụng.&lt;/li&gt;
+&lt;li&gt;Tích hợp Slack Webhook để gửi thông báo khi Lambda thực hiện thao tác thành công.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CloudWatch và Grafana:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách giám sát tài nguyên AWS thông qua CloudWatch metrics.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo EC2 và cấu hình IAM Role để Grafana có quyền đọc dữ liệu giám sát.&lt;/li&gt;
+&lt;li&gt;Cài đặt Grafana trên EC2 và kết nối Grafana với CloudWatch làm data source.&lt;/li&gt;
+&lt;li&gt;Tạo dashboard cơ bản để theo dõi CPU, network và trạng thái tài nguyên.&lt;/li&gt;
+&lt;li&gt;Làm quen với việc trực quan hóa dữ liệu giám sát thay vì chỉ xem metrics trực tiếp trên AWS Console.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Systems Manager Session Manager:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách truy cập EC2 an toàn bằng Session Manager mà không cần SSH key.&lt;/li&gt;
+&lt;li&gt;Thực hành cấu hình IAM Role cho EC2 để sử dụng AWS Systems Manager.&lt;/li&gt;
+&lt;li&gt;Kết nối vào EC2 public/private thông qua Session Manager trên AWS Console.&lt;/li&gt;
+&lt;li&gt;Hiểu lợi ích của Session Manager trong việc giảm rủi ro bảo mật do không cần mở port SSH 22.&lt;/li&gt;
+&lt;li&gt;Kiểm tra session logs để theo dõi lịch sử truy cập và thao tác trên instance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS CloudFormation:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu khái niệm Infrastructure as Code trong triển khai hạ tầng AWS.&lt;/li&gt;
+&lt;li&gt;Thực hành viết và sử dụng CloudFormation template để tạo tài nguyên tự động.&lt;/li&gt;
+&lt;li&gt;Tạo CloudFormation Stack, kiểm tra trạng thái triển khai và xem danh sách tài nguyên được tạo.&lt;/li&gt;
+&lt;li&gt;Cập nhật hoặc xóa stack để quản lý vòng đời tài nguyên.&lt;/li&gt;
+&lt;li&gt;Hiểu cách CloudFormation giúp triển khai hạ tầng nhất quán, dễ lặp lại và dễ quản lý hơn thao tác thủ công.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được cách dùng AWS Lambda để tự động hóa thao tác vận hành EC2.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được IAM Role cần thiết để Lambda có quyền thao tác với EC2.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách sử dụng tag để xác định đúng EC2 cần start/stop tự động.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cấu hình được Lambda function để bật/tắt EC2 theo kịch bản.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Gửi được thông báo qua Slack khi Lambda thực hiện thao tác.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của CloudWatch metrics trong giám sát tài nguyên AWS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cài đặt và sử dụng được Grafana để trực quan hóa dữ liệu giám sát.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kết nối được Grafana với CloudWatch làm nguồn dữ liệu.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được dashboard cơ bản để theo dõi tài nguyên hệ thống.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được cách truy cập EC2 an toàn bằng AWS Systems Manager Session Manager.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kết nối được EC2 bằng Session Manager mà không cần SSH key hoặc mở port SSH.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kiểm tra được session logs để theo dõi lịch sử truy cập.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được khái niệm Infrastructure as Code.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo và triển khai được tài nguyên AWS bằng CloudFormation template.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Quản lý được CloudFormation Stack và tài nguyên được tạo từ stack.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Nắm được lợi ích của tự động hóa hạ tầng trong triển khai và quản trị hệ thống AWS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 6
+&lt;/div&gt;</description></item><item><title>Tuần 7 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.7-week7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.7-week7/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 2 + 3&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Security - IAM Boundary, Security Hub, WAF, KMS và bảo mật Project cá nhân&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-7"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 7&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Giới hạn quyền user với IAM Permission Boundary&lt;/td&gt;
+ &lt;td&gt;000030&lt;/td&gt;
+ &lt;td&gt;IAM / Permission Boundary&lt;/td&gt;
+ &lt;td&gt;Tìm hiểu cách giới hạn quyền tối đa của IAM user&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000030.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Hạn chế chuyển Role theo điều kiện trong IAM&lt;/td&gt;
+ &lt;td&gt;000044&lt;/td&gt;
+ &lt;td&gt;IAM / STS / Condition&lt;/td&gt;
+ &lt;td&gt;Kiểm soát quyền assume role bằng điều kiện IAM&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000044.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Kiểm tra security benchmark với AWS Security Hub&lt;/td&gt;
+ &lt;td&gt;000018&lt;/td&gt;
+ &lt;td&gt;Security Hub / GuardDuty&lt;/td&gt;
+ &lt;td&gt;Đánh giá cấu hình bảo mật theo benchmark&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000018.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Bảo vệ ứng dụng và API với AWS WAF&lt;/td&gt;
+ &lt;td&gt;000026&lt;/td&gt;
+ &lt;td&gt;AWS WAF / ALB / Web ACL&lt;/td&gt;
+ &lt;td&gt;Bảo vệ ứng dụng web trước các request không mong muốn&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000026.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Project cá nhân: kiểm tra bảo mật cơ bản cho Lambda, API Gateway và S3&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;IAM Role / Lambda / API Gateway / S3 / Least Privilege&lt;/td&gt;
+ &lt;td&gt;Review quyền IAM, kiểm tra CORS, tránh hard-code credentials và áp dụng nguyên tắc least privilege&lt;/td&gt;
+ &lt;td&gt;_&lt;/td&gt;
+ &lt;td&gt;Đang làm&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Giới hạn quyền user với IAM Permission Boundary&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Hạn chế chuyển Role theo điều kiện trong IAM&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Kiểm tra security benchmark với AWS Security Hub&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week07_Security%20Hub.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Bảo vệ ứng dụng và API với AWS WAF&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Project cá nhân - Security audit IAM Role Lambda&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_Lambda%27s%20IAM%20Role.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_Permission_policy.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_Lambda%20Resource-based%20policy.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_API_Gateway_route.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_CORS.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_Loggroups.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 6
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IAM Permission Boundary:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách giới hạn quyền tối đa của IAM User bằng Permission Boundary.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo policy giới hạn, tạo IAM User và kiểm tra quyền thực tế của user.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IAM Role &amp;amp; Condition:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Ôn lại IAM User, Group, Role và quá trình Assume Role.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo role và giới hạn quyền truy cập theo điều kiện như IP hoặc thời gian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Security Hub:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Kích hoạt Security Hub để kiểm tra trạng thái bảo mật tài khoản AWS.&lt;/li&gt;
+&lt;li&gt;Xem security standards, findings và điểm đánh giá bảo mật theo benchmark.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS WAF:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách bảo vệ ứng dụng web bằng Web ACL.&lt;/li&gt;
+&lt;li&gt;Thực hành cấu hình managed rules, custom rule và kiểm thử request bị chặn/cho phép.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được Permission Boundary dùng để giới hạn quyền tối đa của IAM User.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Phân biệt được quyền từ IAM Policy và quyền bị giới hạn bởi Permission Boundary.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được cách Assume Role hoạt động trong IAM.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách dùng IAM Condition để giới hạn truy cập theo IP hoặc thời gian.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kích hoạt và xem được kết quả đánh giá bảo mật trong AWS Security Hub.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của AWS WAF trong bảo vệ ứng dụng web/API.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được Web ACL, áp dụng rule cơ bản và kiểm thử rule hoạt động.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách dọn dẹp tài nguyên sau khi hoàn thành lab để tránh phát sinh chi phí.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 7
+&lt;/div&gt;</description></item><item><title>Tuần 8 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.8-week8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.8-week8/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 2 + 3&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Reliability &amp;amp; Performance - Backup, Docker, ECS và chuẩn bị bản production cho Project cá nhân&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-8"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 8&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Triển khai kế hoạch backup hệ thống với AWS Backup&lt;/td&gt;
+ &lt;td&gt;000013&lt;/td&gt;
+ &lt;td&gt;AWS Backup&lt;/td&gt;
+ &lt;td&gt;Tạo kế hoạch backup cho tài nguyên AWS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000013.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Thiết lập SSL/HTTPS cho ứng dụng serverless&lt;/td&gt;
+ &lt;td&gt;000082&lt;/td&gt;
+ &lt;td&gt;Route 53 / CloudFront / ACM / S3 / HTTPS&lt;/td&gt;
+ &lt;td&gt;Cấu hình custom domain, SSL certificate và HTTPS cho website/serverless app&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000082.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Deploy ứng dụng với Docker&lt;/td&gt;
+ &lt;td&gt;000015&lt;/td&gt;
+ &lt;td&gt;Docker / ECR / Container&lt;/td&gt;
+ &lt;td&gt;Đóng gói ứng dụng thành container và đưa image lên ECR&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000015.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Deploy ứng dụng lên Amazon ECS&lt;/td&gt;
+ &lt;td&gt;000016&lt;/td&gt;
+ &lt;td&gt;Amazon ECS / Fargate / Task / Service&lt;/td&gt;
+ &lt;td&gt;Chạy container trên ECS bằng task, service và cluster&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000016.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Project cá nhân: chỉnh sửa source portfolio và build bản production&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;Vue / Vite / GitHub / S3&lt;/td&gt;
+ &lt;td&gt;Tùy chỉnh nội dung portfolio cá nhân, kiểm tra source code, build source thành thư mục &lt;code&gt;dist&lt;/code&gt; và chuẩn bị upload lên Amazon S3&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Hoàn thành&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Triển khai kế hoạch backup hệ thống với AWS Backup&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Kết nối nhiều VPC với VPC Peering&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deploy ứng dụng với Docker&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deploy ứng dụng lên Amazon ECS&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Project cá nhân - Tích hợp visitor counter và build production&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_frontend_api_integration.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_frontend_build_success.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_visitor_counter.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_web_counter_uccess.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_dynamodb_counter_success.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 5
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AWS Backup:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách tạo kế hoạch sao lưu tài nguyên AWS bằng AWS Backup.&lt;/li&gt;
+&lt;li&gt;Thực hành cấu hình backup plan, backup vault và rule sao lưu.&lt;/li&gt;
+&lt;li&gt;Làm quen với việc chọn tài nguyên cần backup và kiểm tra backup job.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSL/HTTPS cho ứng dụng:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách dùng Route 53, ACM và CloudFront để cấu hình HTTPS.&lt;/li&gt;
+&lt;li&gt;Thực hành cấp SSL certificate và gắn vào CloudFront Distribution.&lt;/li&gt;
+&lt;li&gt;Cấu hình truy cập website qua HTTPS để tăng bảo mật.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker và Amazon ECR:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cơ bản về Docker, image và container.&lt;/li&gt;
+&lt;li&gt;Thực hành đóng gói ứng dụng thành Docker image.&lt;/li&gt;
+&lt;li&gt;Đẩy image lên Amazon ECR để chuẩn bị triển khai trên AWS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon ECS:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách chạy container trên Amazon ECS.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo ECS Cluster, Task Definition và Service.&lt;/li&gt;
+&lt;li&gt;Kiểm tra ứng dụng container hoạt động trên ECS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project cá nhân - Tích hợp visitor counter và build production:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Chỉnh sửa source portfolio cá nhân bằng Vue/Vite.&lt;/li&gt;
+&lt;li&gt;Tích hợp frontend with API Gateway endpoint &lt;code&gt;/visitor&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Kiểm tra visitor counter hoạt động trên giao diện web.&lt;/li&gt;
+&lt;li&gt;Kiểm tra dữ liệu visitor counter được cập nhật trong DynamoDB.&lt;/li&gt;
+&lt;li&gt;Build source thành bản production để chuẩn bị upload lên Amazon S3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của AWS Backup trong việc sao lưu tài nguyên.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được backup plan, backup vault và rule sao lưu cơ bản.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Biết cách kiểm tra trạng thái backup job.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được cách cấu hình HTTPS bằng ACM và CloudFront.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cấp được SSL certificate và gắn vào CloudFront.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Nắm được khái niệm Docker image và container.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Đóng gói được ứng dụng thành Docker image.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Đẩy được Docker image lên Amazon ECR.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được ECS Cluster, Task Definition và Service.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Triển khai được container cơ bản trên Amazon ECS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Thiết lập được GitHub Actions CI/CD để tự động deploy portfolio lên S3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 8
+&lt;/div&gt;</description></item><item><title>Tuần 9 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.9-week9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.9-week9/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 4 + 5 + 6 + 7&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; CI/CD, Serverless Part 1 và deploy Project cá nhân lên S3 + CloudFront&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-9"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 9&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;CI/CD cho ứng dụng Serverless&lt;/td&gt;
+ &lt;td&gt;000084&lt;/td&gt;
+ &lt;td&gt;CodePipeline / CodeBuild / Serverless&lt;/td&gt;
+ &lt;td&gt;Xây dựng pipeline tự động để triển khai ứng dụng serverless&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000084.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Serverless - Lambda tương tác với S3 và DynamoDB&lt;/td&gt;
+ &lt;td&gt;000078&lt;/td&gt;
+ &lt;td&gt;Lambda / S3 / DynamoDB&lt;/td&gt;
+ &lt;td&gt;Xây dựng backend serverless dùng Lambda, S3 và DynamoDB&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000078.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Serverless - Build Frontend gọi API Gateway&lt;/td&gt;
+ &lt;td&gt;000079&lt;/td&gt;
+ &lt;td&gt;API Gateway / Lambda / Frontend&lt;/td&gt;
+ &lt;td&gt;Tạo frontend gọi API serverless thông qua API Gateway&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000079.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Serverless - Deploy ứng dụng with AWS SAM&lt;/td&gt;
+ &lt;td&gt;000080&lt;/td&gt;
+ &lt;td&gt;AWS SAM / Lambda / CloudFormation&lt;/td&gt;
+ &lt;td&gt;Deploy ứng dụng serverless bằng AWS SAM&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000080.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Project cá nhân: deploy portfolio lên S3 và phân phối qua CloudFront&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;Amazon S3 / CloudFront / CloudFront default HTTPS&lt;/td&gt;
+ &lt;td&gt;Upload bản build portfolio lên S3, tạo CloudFront Distribution và truy cập website bằng CloudFront default domain &lt;code&gt;https://ddusufgoys11.cloudfront.net&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CI/CD cho ứng dụng Serverless&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Serverless - Lambda tương tác với S3 và DynamoDB&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Serverless - Build Frontend gọi API Gateway&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Serverless - Deploy ứng dụng với AWS SAM&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Project cá nhân - CloudFront Distribution + HTTPS&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20build%20production.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_ls%20-la%20dist.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_upload_dist.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_create_CloudFront_Distribution.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_deploys3.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 5
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD cho ứng dụng Serverless:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu quy trình build và deploy ứng dụng serverless tự động.&lt;/li&gt;
+&lt;li&gt;Làm quen với CodePipeline, CodeBuild và cách tự động hóa triển khai.&lt;/li&gt;
+&lt;li&gt;Thực hành cấu hình pipeline để giảm thao tác deploy thủ công.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lambda, S3 và DynamoDB:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách AWS Lambda xử lý logic backend trong mô hình serverless.&lt;/li&gt;
+&lt;li&gt;Thực hành Lambda tương tác với S3 và DynamoDB.&lt;/li&gt;
+&lt;li&gt;Làm quen với cách lưu trữ dữ liệu và xử lý sự kiện không cần quản lý server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API Gateway và Frontend:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách tạo API endpoint bằng Amazon API Gateway.&lt;/li&gt;
+&lt;li&gt;Kết nối frontend với API Gateway để gọi Lambda function.&lt;/li&gt;
+&lt;li&gt;Cấu hình CORS để frontend có thể gọi API hợp lệ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS SAM:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách dùng AWS SAM để triển khai ứng dụng serverless bằng template.&lt;/li&gt;
+&lt;li&gt;Thực hành khai báo Lambda, API Gateway và DynamoDB bằng file cấu hình.&lt;/li&gt;
+&lt;li&gt;Deploy ứng dụng serverless thông qua SAM thay vì tạo thủ công từng dịch vụ.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project cá nhân - Deploy lên S3 và CloudFront:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Build source portfolio thành thư mục &lt;code&gt;dist&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Kiểm tra các file build gồm &lt;code&gt;index.html&lt;/code&gt;, &lt;code&gt;assets/&lt;/code&gt; và các file tĩnh cần thiết.&lt;/li&gt;
+&lt;li&gt;Upload bản build lên Amazon S3.&lt;/li&gt;
+&lt;li&gt;Tạo CloudFront Distribution trỏ về S3 bucket.&lt;/li&gt;
+&lt;li&gt;Truy cập website bằng CloudFront default domain: &lt;code&gt;https://ddusufgoys11.cloudfront.net&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Kiểm tra website load thành công qua HTTPS mặc định của CloudFront.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được quy trình CI/CD cho ứng dụng serverless.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Làm quen với CodePipeline và CodeBuild trong triển khai tự động.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được cách Lambda xử lý backend không cần quản lý server.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kết nối được Lambda với S3 và DynamoDB.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được API endpoint bằng API Gateway.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kết nối frontend với API Gateway để gọi Lambda.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cấu hình được CORS cơ bản cho API.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của AWS SAM trong triển khai serverless.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Deploy được ứng dụng serverless bằng SAM template.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được CloudFront Distribution cho portfolio.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cấu hình được HTTPS cho website bằng ACM và CloudFront.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được cách CloudFront giúp tăng tốc và bảo vệ website tĩnh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 9
+&lt;/div&gt;</description></item><item><title>Tuần 10 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.10-week10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.10-week10/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 4 + 5 + 6 + 7&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Serverless Part 2 - Cognito, SQS/SNS, Step Functions, Monitoring và hoàn thiện source Project cá nhân&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Nội dung chi tiết sẽ được cập nhật sau khi hoàn thành từng bài thực hành.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-10"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 10&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Serverless - Xác thực người dùng với Amazon Cognito&lt;/td&gt;
+ &lt;td&gt;000081&lt;/td&gt;
+ &lt;td&gt;Amazon Cognito / JWT&lt;/td&gt;
+ &lt;td&gt;Thêm xác thực người dùng cho ứng dụng serverless&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000081.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Serverless - Xử lý đơn hàng async với SQS và SNS&lt;/td&gt;
+ &lt;td&gt;000083&lt;/td&gt;
+ &lt;td&gt;SQS / SNS / Lambda&lt;/td&gt;
+ &lt;td&gt;Xử lý tác vụ bất đồng bộ bằng queue và notification&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000083.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Serverless - Monitoring production app với CloudWatch và X-Ray&lt;/td&gt;
+ &lt;td&gt;000085&lt;/td&gt;
+ &lt;td&gt;CloudWatch / X-Ray&lt;/td&gt;
+ &lt;td&gt;Theo dõi và phân tích ứng dụng serverless trong môi trường production&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000085.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Điều phối workflow phức tạp với AWS Step Functions&lt;/td&gt;
+ &lt;td&gt;000047&lt;/td&gt;
+ &lt;td&gt;Step Functions / Workflow&lt;/td&gt;
+ &lt;td&gt;Xây dựng workflow nhiều bước trên AWS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000047.awsstudygroup.com/vi/"&gt;Xem lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Project cá nhân: rà soát source, README và hoàn thiện CloudFront default domain&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;GitHub / S3 / CloudFront / Error Pages / Vue SPA&lt;/td&gt;
+ &lt;td&gt;Chuẩn hóa source portfolio, cập nhật README, kiểm tra CloudFront default domain, xử lý lỗi refresh trang và hoàn thiện bản final để chuẩn bị viết tài liệu&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Serverless - Xác thực người dùng với Amazon Cognito&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Serverless - Xử lý đơn hàng async với SQS và SNS&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Serverless - Monitoring production app với CloudWatch và X-Ray&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Điều phối workflow phức tạp với AWS Step Functions&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ Xem minh chứng
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Project cá nhân - Hoàn thiện source, README và CloudFront default domain&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20github-readme.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20github-commit-final-source.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20github-actions-deploy.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20final-build-file.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20cloudfront-distribution-enabled.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20cloudfront-error.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20cloudfront-https-homepage.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20project-confirm-modal.png"
+ alt="Minh chung 8"
+ class="evidence-gallery-image"
+ data-evidence-index="7"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 8
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Amazon Cognito:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách xác thực người dùng trong ứng dụng serverless.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo User Pool và cấu hình đăng ký, đăng nhập.&lt;/li&gt;
+&lt;li&gt;Làm quen với token xác thực và cách bảo vệ API.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQS và SNS:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách xử lý tác vụ bất đồng bộ bằng hàng đợi và thông báo.&lt;/li&gt;
+&lt;li&gt;Thực hành dùng SQS để lưu message chờ xử lý.&lt;/li&gt;
+&lt;li&gt;Tìm hiểu SNS để gửi thông báo đến nhiều nơi nhận.&lt;/li&gt;
+&lt;li&gt;Kết hợp Lambda với SQS/SNS để xử lý luồng sự kiện.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CloudWatch và X-Ray:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách giám sát ứng dụng serverless trong môi trường production.&lt;/li&gt;
+&lt;li&gt;Thực hành xem logs, metrics và lỗi phát sinh trong CloudWatch.&lt;/li&gt;
+&lt;li&gt;Làm quen với AWS X-Ray để phân tích luồng request và thời gian xử lý.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Step Functions:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Tìm hiểu cách điều phối workflow nhiều bước trên AWS.&lt;/li&gt;
+&lt;li&gt;Thực hành tạo state machine để kết nối nhiều bước xử lý.&lt;/li&gt;
+&lt;li&gt;Hiểu cách Step Functions giúp quản lý quy trình phức tạp rõ ràng hơn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project cá nhân - Hoàn thiện source và CloudFront default domain:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Rà soát lại source code portfolio trên GitHub.&lt;/li&gt;
+&lt;li&gt;Cập nhật README.md để ghi đúng tên project, link source, link GitHub Pages backup và link CloudFront live chính.&lt;/li&gt;
+&lt;li&gt;Kiểm tra lại bản build production trước khi upload lên S3.&lt;/li&gt;
+&lt;li&gt;Kiểm tra CloudFront Distribution đang ở trạng thái Enabled.&lt;/li&gt;
+&lt;li&gt;Kiểm tra website chạy bằng CloudFront default domain: &lt;code&gt;https://ddusufgoys11.cloudfront.net&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Xử lý lỗi refresh trang chi tiết project bị &lt;code&gt;AccessDenied&lt;/code&gt; bằng cấu hình CloudFront Error Pages.&lt;/li&gt;
+&lt;li&gt;Kiểm tra modal xác nhận project hoạt động đúng.&lt;/li&gt;
+&lt;li&gt;Chuẩn hóa nội dung project để chuẩn bị sang Tuần 11 vẽ sơ đồ kiến trúc và viết tài liệu hướng dẫn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của Amazon Cognito trong xác thực người dùng.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được User Pool và cấu hình đăng ký, đăng nhập cơ bản.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Nắm được cách dùng token để bảo vệ API.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của SQS trong xử lý hàng đợi.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được vai trò của SNS trong gửi thông báo.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kết hợp được Lambda với SQS/SNS trong mô hình event-driven.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Xem được logs, metrics và lỗi của ứng dụng bằng CloudWatch.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Làm quen với X-Ray để phân tích request và hiệu năng xử lý.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Tạo được workflow cơ bản bằng AWS Step Functions.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hiểu được cách điều phối nhiều bước xử lý bằng state machine.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Cấu hình được Route 53 custom domain cho project cá nhân.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Kiểm tra được luồng hoạt động end-to-end của AWS Cloud Portfolio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 10
+&lt;/div&gt;</description></item><item><title>Tuần 11 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.11-week11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.11-week11/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 4 + 5 + 6 + 7&lt;/strong&gt; &lt;strong&gt;Chủ đề:&lt;/strong&gt; Hoàn thiện kiến trúc, kiểm thử và tài liệu cho Project cá nhân AWS Cloud Portfolio&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Tuần này tập trung hoàn thiện project cá nhân đã deploy ở các tuần trước, kiểm tra lại toàn bộ luồng hoạt động và bổ sung tài liệu mô tả project.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-kế-hoạch-và-kết-quả-thực-hiện-trong-tuần-11"&gt;1. Kế hoạch và kết quả thực hiện trong Tuần 11&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Thứ&lt;/th&gt;
+ &lt;th&gt;Nội dung thực hiện&lt;/th&gt;
+ &lt;th&gt;Mã bài&lt;/th&gt;
+ &lt;th&gt;Dịch vụ / nội dung liên quan&lt;/th&gt;
+ &lt;th&gt;Mục tiêu chính&lt;/th&gt;
+ &lt;th&gt;Tài liệu tham khảo&lt;/th&gt;
+ &lt;th&gt;Trạng thái&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;2&lt;/td&gt;
+ &lt;td&gt;Hoàn thiện sơ đồ kiến trúc AWS Cloud Portfolio&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;draw.io / S3 / CloudFront / API Gateway / Lambda / DynamoDB / IAM / CloudWatch&lt;/td&gt;
+ &lt;td&gt;Vẽ lại sơ đồ kiến trúc project, thể hiện rõ website chạy qua CloudFront, frontend lưu trên S3 và backend visitor counter dùng API Gateway, Lambda, DynamoDB&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;3&lt;/td&gt;
+ &lt;td&gt;Kiểm thử lại website và luồng visitor counter&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;CloudFront / S3 / API Gateway / Lambda / DynamoDB / CloudWatch&lt;/td&gt;
+ &lt;td&gt;Mở website bằng CloudFront URL, kiểm tra API &lt;code&gt;/visitor&lt;/code&gt;, Lambda xử lý request và dữ liệu visitor counter được cập nhật&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;4&lt;/td&gt;
+ &lt;td&gt;Viết Workshop documentation phần Overview, Prerequisites, Architecture, Deployment&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;Workshop documentation / Architecture Diagram / AWS Services&lt;/td&gt;
+ &lt;td&gt;Viết phần giới thiệu project, các bước chuẩn bị, mô tả kiến trúc và cách deploy frontend lên S3 + CloudFront&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;5&lt;/td&gt;
+ &lt;td&gt;Viết Workshop documentation phần Testing, Monitoring, Cleanup&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;Workshop documentation / CloudWatch / Cleanup&lt;/td&gt;
+ &lt;td&gt;Ghi lại cách kiểm thử website, kiểm tra log Lambda và lưu ý dọn dẹp tài nguyên AWS để tránh phát sinh chi phí&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;6&lt;/td&gt;
+ &lt;td&gt;Rà soát project, chụp minh chứng và hoàn thiện nội dung Tuần 11&lt;/td&gt;
+ &lt;td&gt;Project cá nhân&lt;/td&gt;
+ &lt;td&gt;CloudFront / S3 / API Gateway / Lambda / DynamoDB / CloudWatch / Word documentation&lt;/td&gt;
+ &lt;td&gt;Chụp lại các minh chứng chính gồm website, API, Lambda, S3, sơ đồ kiến trúc và tài liệu workshop&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Xong&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-minh-chứng-bằng-ảnh"&gt;2. Minh chứng bằng ảnh&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Nội dung cần minh chứng&lt;/th&gt;
+ &lt;th&gt;Minh chứng&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Sơ đồ kiến trúc AWS Cloud Portfolio&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-cloud-portfolio-architecture.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Website portfolio chạy thành công bằng CloudFront URL&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_cloudfront-website-running.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;S3 bucket chứa file build frontend&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-s3-static-build-files.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;API Gateway endpoint &lt;code&gt;/visitor&lt;/code&gt; hoạt động&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-3')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-3" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-api-gateway-visitor-endpoint.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-api-gateway-route-visitor.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-3', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-3', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 2
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Lambda function xử lý visitor counter&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-lambda-visitor-counter-function.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Workshop documentation phần Overview, Architecture và Deployment&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-5')"&gt;Xem minh chứng&lt;/button&gt;
+
+&lt;div id="evidence-gallery-5" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-5', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-5', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-workshop-documentation-overview.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-workshop-documentation-architecture.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-workshop-documentation-deployment.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-5', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-5', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 3
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-nội-dung"&gt;3. Nội dung&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hoàn thiện sơ đồ kiến trúc AWS Cloud Portfolio:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Vẽ sơ đồ kiến trúc bằng draw.io.&lt;/li&gt;
+&lt;li&gt;Bỏ Route 53 khỏi sơ đồ vì project hiện tại chưa dùng custom domain.&lt;/li&gt;
+&lt;li&gt;Thể hiện đúng các thành phần đang dùng: User, CloudFront, S3, API Gateway, Lambda, DynamoDB, IAM Role và CloudWatch Logs.&lt;/li&gt;
+&lt;li&gt;Làm rõ luồng chính của project: người dùng truy cập website qua CloudFront, file frontend nằm trong S3, frontend gọi API Gateway để xử lý visitor counter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kiểm thử lại website đã deploy trên AWS:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Mở website bằng CloudFront URL và kiểm tra website load bình thường.&lt;/li&gt;
+&lt;li&gt;Kiểm tra lại việc refresh trang không còn lỗi AccessDenied.&lt;/li&gt;
+&lt;li&gt;Kiểm tra S3 bucket đang chứa các file build frontend như &lt;code&gt;index.html&lt;/code&gt;, &lt;code&gt;404.html&lt;/code&gt; và thư mục &lt;code&gt;assets/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Xác nhận S3 chỉ chứa file build frontend, không phải source code. Source code vẫn được quản lý trên GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kiểm tra lại visitor counter:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Mở API Gateway endpoint &lt;code&gt;/visitor&lt;/code&gt; trực tiếp trên trình duyệt.&lt;/li&gt;
+&lt;li&gt;Kiểm tra endpoint trả response JSON thành công.&lt;/li&gt;
+&lt;li&gt;Kiểm tra Lambda function &lt;code&gt;portfolioVisitorCounter&lt;/code&gt; có logic xử lý visitor counter.&lt;/li&gt;
+&lt;li&gt;Kiểm tra Lambda dùng DynamoDB để cập nhật số lượt truy cập.&lt;/li&gt;
+&lt;li&gt;Kiểm tra CloudWatch Logs có ghi nhận quá trình Lambda chạy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Viết Workshop documentation cho project cá nhân:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Viết phần &lt;strong&gt;Overview&lt;/strong&gt; để giới thiệu project AWS Cloud Portfolio và mục tiêu triển khai.&lt;/li&gt;
+&lt;li&gt;Viết phần &lt;strong&gt;Prerequisites&lt;/strong&gt; để liệt kê các thành phần cần chuẩn bị như AWS account, GitHub, Node.js, S3, CloudFront, API Gateway, Lambda, DynamoDB và CloudWatch.&lt;/li&gt;
+&lt;li&gt;Viết phần &lt;strong&gt;Architecture&lt;/strong&gt; để giải thích luồng CloudFront → S3 và API Gateway → Lambda → DynamoDB.&lt;/li&gt;
+&lt;li&gt;Viết phần &lt;strong&gt;Deployment&lt;/strong&gt; để ghi lại cách build frontend, upload file build lên S3 và phân phối website bằng CloudFront.&lt;/li&gt;
+&lt;li&gt;Viết thêm phần Testing, Monitoring và Cleanup ở mức cơ bản để dùng cho báo cáo cuối.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rà soát lại nội dung Tuần 11:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Gom lại các ảnh minh chứng chính.&lt;/li&gt;
+&lt;li&gt;Đổi cách ghi từ “S3 bucket chứa source build frontend” thành “S3 bucket chứa file build frontend” cho đúng.&lt;/li&gt;
+&lt;li&gt;Kiểm tra lại các link chính của project:
+&lt;ul&gt;
+&lt;li&gt;GitHub source: &lt;code&gt;https://github.com/tronghieu1201/portfolio&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;GitHub Pages backup: &lt;code&gt;https://tronghieu1201.github.io/portfolio/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;CloudFront live: &lt;code&gt;https://ddusufgoys11.cloudfront.net&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-kết-quả-đạt-được"&gt;4. Kết quả đạt được&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hoàn thiện sơ đồ kiến trúc AWS Cloud Portfolio.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Website portfolio chạy được bằng CloudFront URL.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; S3 bucket đã chứa file build frontend.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; API Gateway endpoint &lt;code&gt;/visitor&lt;/code&gt; hoạt động.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Lambda function &lt;code&gt;portfolioVisitorCounter&lt;/code&gt; xử lý visitor counter.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; DynamoDB cập nhật số lượt truy cập khi API được gọi.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; CloudWatch Logs ghi nhận quá trình Lambda thực thi.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hoàn thiện Workshop documentation phần Overview, Prerequisites, Architecture và Deployment.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Bổ sung nội dung Testing, Monitoring và Cleanup ở mức cơ bản.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Có đủ ảnh minh chứng chính cho Tuần 11.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ HẾT TUẦN 11
+&lt;/div&gt;</description></item><item><title>Tuần 12 - Nhật ký công việc</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.12-week12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/vi/1-worklog/1.12-week12/</guid><description>&lt;p&gt;&lt;strong&gt;Mô-đun 4 + 5 + 6 + 7&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Chủ đề:&lt;/strong&gt; Tổng kết quá trình thực tập, nhìn lại kiến thức đã học và hoàn thiện báo cáo cuối kỳ&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Ghi chú:&lt;/strong&gt; Tuần này không tập trung tạo thêm dịch vụ AWS mới. Nội dung chính là nhìn lại toàn bộ quá trình 11 tuần đã thực hiện, tổng kết kiến thức đã học, rút kinh nghiệm và hoàn thiện phần báo cáo cuối kỳ.&lt;/p&gt;</description></item></channel></rss>

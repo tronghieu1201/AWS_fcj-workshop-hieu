@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Events Attended on Internship Report</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/4-eventparticipated/</link><description>Recent content in Events Attended on Internship Report</description><generator>Hugo</generator><language>en</language><atom:link href="https://tronghieu1201.github.io/aws-fcj-learning-journey/4-eventparticipated/index.xml" rel="self" type="application/rss+xml"/><item><title>Event 1: FCAJ Community Day</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/4-eventparticipated/4.1-event1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/4-eventparticipated/4.1-event1/</guid><description>&lt;h1 id="fcaj-community-day---may-2026"&gt;FCAJ Community Day - May 2026&lt;/h1&gt;
+&lt;h2 id="event-information"&gt;Event Information&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Attributes&lt;/th&gt;
+ &lt;th&gt;Details&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Event Name&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;FCAJ Community Day - May&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;09:00 AM - 12:00 PM, Saturday, May 23, 2026&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Floor 26, Bitexco Financial Tower, 2 Hai Trieu St., Dist. 1, HCMC&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;em&gt;Offline&lt;/em&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Attendee / Intern&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Organizer&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;First Cloud AI Journey&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="event-objectives"&gt;Event Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update on the latest technology trends in Cloud Infrastructure (AWS) and Generative Artificial Intelligence (GenAI, LLMs).&lt;/li&gt;
+&lt;li&gt;Learn practical insights from top-tier experts on cost optimization, Multi-Agent architectures, and managing the stability of enterprise-grade AI models.&lt;/li&gt;
+&lt;li&gt;Expand professional networking within the engineer/developer community and members of the First Cloud AI Journey ecosystem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="list-of-speakers--organizers"&gt;List of Speakers / Organizers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tinh Truong&lt;/strong&gt; - Platform Engineer, GoTymeX&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pham Ng. Hai Anh&lt;/strong&gt; - G-AsiaPacific Vietnam / AWS Community Builder&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nguyen Tuan Thinh&lt;/strong&gt; - DevOps Engineer, First Cloud AI Journey&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UTMorpho Team&lt;/strong&gt; - Outstanding Participants at LotusHacks 2026&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duc Dao&lt;/strong&gt; - Solution Architect, Cloud Kinetics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vy Lam&lt;/strong&gt; - Senior Business Systems Analyst, VPBank&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;h3 id="non-determinism-of-deterministic-llm-settings-speaker-duc-dao---cloud-kinetics"&gt;Non-Determinism of &amp;ldquo;Deterministic&amp;rdquo; LLM Settings &lt;em&gt;(Speaker: Duc Dao - Cloud Kinetics)&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Token Selection Mechanism:&lt;/strong&gt; LLMs generate text token by token by converting logits into probabilities via a &lt;code&gt;softmax&lt;/code&gt; function. Theoretically, setting &lt;code&gt;Temperature = 0&lt;/code&gt; triggers greedy decoding (argmax) — always selecting the single highest-probability token to guarantee 100% reproducible and deterministic outputs for the same prompt.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Reality Gap:&lt;/strong&gt; In practice, even with &lt;code&gt;temp=0&lt;/code&gt;, LLMs can still return non-deterministic responses. This randomness does not stem from sampling, but rather from the underlying GPU architecture, floating-point calculation discrepancies, and various inference optimization algorithms utilized during hosting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impacts &amp;amp; Mitigation:&lt;/strong&gt; Setting &lt;code&gt;temp=0&lt;/code&gt; often leads the model to get stuck in repetitive generation loops. A practical remedy is setting &lt;code&gt;temp=0.1&lt;/code&gt; as a &amp;ldquo;sweet spot&amp;rdquo;, which keeps the probability distribution extremely sharp (near-deterministic) while introducing a tiny stochastic nudge to prevent loop locks. Additionally, engineers should leverage higher &lt;code&gt;repeat penalty&lt;/code&gt; values and fundamentally design downstream applications to tolerate variance from the start.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="enterprise-grade-multi-agent-system-the-case-of-startup-credit-scoring-speaker-vy-lam---vpbank"&gt;Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring &lt;em&gt;(Speaker: Vy Lam - VPBank)&lt;/em&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Structural Mismatch:&lt;/strong&gt; Traditional banking credit scoring systems routinely fail to evaluate startups due to data misalignment. Traditional frameworks mandate 3+ years of audited financial statements, stable collateral, and predictable revenue patterns. In contrast, startup data is highly multi-dimensional, heavily unstructured, and volatile (6-18 months of operation, with core assets being IP, team composition, and market traction).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Virtual Credit Committee Blueprint:&lt;/strong&gt; To tackle multi-dimensional data, the architecture shifts from a Single Agent to a Multi-Agent paradigm. The system orchestrates multiple highly specialized agents: a Financial Agent (evaluating burn rate and runway), a Market Agent (analyzing TAM/SAM), a Team Agent (vetting founder backgrounds), and a Traction Agent. This distributed expertise delivers comprehensive insights and robust auditability that a single agent cannot match.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enterprise Mindset &amp;amp; ROI:&lt;/strong&gt; Transitioning AI from a working prototype to production-ready requires security and compliance to be implemented as a Day 1 mindset. The production architecture incorporates Cognito/OAuth2 for authentication, Bedrock Guardrails for content filtering, IAM least-privilege boundaries, and Model Context Protocol (MCP) integration, all deployed via Terraform. This delivers a compelling business case with a 90%+ cost reduction and 95% faster processing speed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="amazon-q-business-leveraging-q-chat-amazon-q-apps-custom-web-experiences-and-amazon-q-in-quicksight-to-analyze-data-and-automate-operations-using-natural-language"&gt;Amazon Q Business: Leveraging Q Chat, Amazon Q Apps, custom web experiences, and Amazon Q in QuickSight to analyze data and automate operations using natural language.&lt;/h3&gt;
+&lt;h3 id="exploring-cloudfront-foundation"&gt;Exploring CloudFront Foundation:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Deeply analyzed methods of optimizing static and dynamic content delivery across AWS&amp;rsquo;s edge network infrastructure.&lt;/li&gt;
+&lt;li&gt;Compared performance boundaries of &lt;strong&gt;CloudFront Functions&lt;/strong&gt; (executing instantly at Edge Locations, suited for URL rewrites and basic header checks) vs. &lt;strong&gt;Lambda@Edge&lt;/strong&gt; (running fully programmable, complex backend computational logic closer to regional endpoints).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="lotushacks-journey-with-utmorpho"&gt;LotusHacks Journey with UTMorpho:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Explored inspiring stories from developing and scaling the award-winning project at LotusHacks 2026.&lt;/li&gt;
+&lt;li&gt;Learned valuable teamwork skills, progress scheduling, and the rigorous transition process of converting an ambitious concept into a stable system operating on AWS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="key-lessons-learned"&gt;Key Lessons Learned&lt;/h2&gt;
+&lt;h3 id="technical-domain"&gt;Technical Domain&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LLM Principles:&lt;/strong&gt; Gained a deeper understanding of model non-determinism and the critical role of hyperparameter tuning in production environments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Agent Architectures:&lt;/strong&gt; Discovered how coordinating multiple specialized AI agents can systematically solve complex, domain-specific enterprise problems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security-First Integration:&lt;/strong&gt; Realized that embedding security layers (Cognito, Bedrock Guardrails, least-privilege IAM) must be a Day 1 design priority.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="practical-skills"&gt;Practical Skills&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Learned how to optimize compute and cost margins when deploying AI systems at scale.&lt;/li&gt;
+&lt;li&gt;Discovered how to bridge academic theories with real-world enterprise applications in corporate finance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="application-to-work"&gt;Application to Work&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Applying the Context Framework (Goals, Constraints, Criteria) to systematically interact with AI tools, dramatically improving daily task efficiency.&lt;/li&gt;
+&lt;li&gt;Strictly adhering to rigid Cloud IAM access controls and security boundary standards during upcoming enterprise internship assignments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="personal-experience"&gt;Personal Experience&lt;/h2&gt;
+&lt;h3 id="highlights"&gt;Highlights&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Strongly impressed by the Virtual Credit Committee architecture that elegantly solves the lack of historical startup financials.&lt;/li&gt;
+&lt;li&gt;The mathematical and hardware breakdown behind LLM repetitive loops clarified several major core engineering uncertainties.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="key-takeaways"&gt;Key Takeaways&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The future does not pit Humans against AI, but rather humans who know how to engineer context against those who do not.&lt;/li&gt;
+&lt;li&gt;When pushing AI into production, stability, security boundaries, and data auditability hold far more weight than a flashy proof-of-concept demo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="event-images"&gt;Event Images&lt;/h2&gt;
+
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;Event Images&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/event/1.jpg"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/event/2.jpg"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/event/3.jpg"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/event/4.jpg"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/event/5.jpg"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 5
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+
+&lt;hr&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The May edition of FCAJ Community Day offered an all-encompassing perspective spanning from core cloud infrastructure up to intelligent enterprise logic layers. This pool of knowledge serves as a stellar foundation, setting up a proper architectural mindset for my internship and future career growth.&lt;/p&gt;</description></item><item><title>Event 2: FCAJ Community Day</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/4-eventparticipated/4.1-event2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/4-eventparticipated/4.1-event2/</guid><description>&lt;h1 id="fcaj-community-day---june-2026"&gt;FCAJ Community Day - June 2026&lt;/h1&gt;
+&lt;h2 id="event-information"&gt;Event Information&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Attributes&lt;/th&gt;
+ &lt;th&gt;Details&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Event Name&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;FCAJ Community Day - June&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Time&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;08:30 AM - 11:30 AM, Saturday, June 27, 2026&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Location&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Bitexco Financial Tower, HCMC&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Format&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;em&gt;Offline&lt;/em&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Role&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Attendee / Intern&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Organizer&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;First Cloud AI Journey&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="event-objectives"&gt;Event Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update on emerging trends in Generative AI, Voice Agents, DevOps Agents, and cloud operations workflows on AWS.&lt;/li&gt;
+&lt;li&gt;Study how AI is applied to solve tangible business challenges such as conversational voice support, automated incident response, workforce planning, and secure enterprise data integration.&lt;/li&gt;
+&lt;li&gt;Deepen understanding of Amazon Bedrock, Amazon Nova Sonic, Model Context Protocol (MCP), and agentic architectures in building highly scalable, enterprise-ready systems.&lt;/li&gt;
+&lt;li&gt;Gain a practical, industry-centric perspective on executing AI solutions beyond simple static demos, focusing on real-world data and measurable business value.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="key-topics"&gt;Key Topics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deep Response Engine:&lt;/strong&gt; Bridging the gap between automated incident detection and resolution in modern cloud environments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Voice Agents:&lt;/strong&gt; Constructing highly conversational, human-like AI experiences at scale.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS DevOps Agent:&lt;/strong&gt; Enhancing cloud operations, monitoring workflows, and driving down issue resolution cycles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon Q Business:&lt;/strong&gt; Empowering enterprise productivity and supporting workforce optimization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCP Private Connection:&lt;/strong&gt; Restricting AI interactions with internal enterprise tools and database models to secure private network pathways.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="key-highlights"&gt;Key Highlights&lt;/h2&gt;
+&lt;h3 id="voice-agents-building-human-like-ai-conversations-at-scale-speaker-trung-vu---revve-ai"&gt;Voice Agents: Building Human-Like AI Conversations at Scale &lt;em&gt;(Speaker: Trung Vu - Revve AI)&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;This presentation was the highlight of the event for me. It did not merely showcase AI voice interfaces but provided a transparent look into the complex backend architectures and trade-offs required to operate Voice Agents at scale.&lt;/p&gt;</description></item></channel></rss>

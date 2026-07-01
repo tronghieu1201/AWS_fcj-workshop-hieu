@@ -1,0 +1,3358 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Worklog on Internship Report</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/</link><description>Recent content in Worklog on Internship Report</description><generator>Hugo</generator><language>en</language><atom:link href="https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.1-week1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.1-week1/</guid><description>&lt;p&gt;&lt;strong&gt;Module 1&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; AWS Account, Billing Management, AWS Support, and IAM&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-1"&gt;1. Plan and Deliverables in Week 1&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Onboarding FCAJ &amp;amp; Reading regulations&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;WhatsApp / Internship Rules&lt;/td&gt;
+ &lt;td&gt;Understand communication channels, guidelines, and reporting requirements&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;AWS Account Creation&lt;/td&gt;
+ &lt;td&gt;000001&lt;/td&gt;
+ &lt;td&gt;AWS Account / Billing&lt;/td&gt;
+ &lt;td&gt;Familiarize with AWS Free Tier, Management Console, and Billing Dashboard&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000001.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Budgeting with AWS Budgets&lt;/td&gt;
+ &lt;td&gt;000007&lt;/td&gt;
+ &lt;td&gt;AWS Budgets&lt;/td&gt;
+ &lt;td&gt;Set up budgets, configure custom alerts, and monitor costs&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000007.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;AWS Support Portal &amp;amp; Cases&lt;/td&gt;
+ &lt;td&gt;000009&lt;/td&gt;
+ &lt;td&gt;AWS Support&lt;/td&gt;
+ &lt;td&gt;Understand Support Center, service tiers, and submit support cases&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000009.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Access Management with AWS IAM&lt;/td&gt;
+ &lt;td&gt;000002&lt;/td&gt;
+ &lt;td&gt;AWS IAM&lt;/td&gt;
+ &lt;td&gt;Understand IAM Users, Groups, Roles, Policies, and least privilege access&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000002.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Create New AWS Account&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-0')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week01-aws-console-home.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Set Up AWS Budgets&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-1')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week01-budget.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;AWS Support Interaction&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-2')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week01-aws-support.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Access Control with IAM&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-3')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-3" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-3', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-3', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week01-iam.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AWS Account &amp;amp; Billing:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Successfully created an AWS Free Tier account and completed AWS Management Console login.&lt;/li&gt;
+&lt;li&gt;Verified account details, Free Tier status, active credits, and explored the Console Home interface.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Budgets:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Explored methods to monitor and predict AWS resource consumption charges.&lt;/li&gt;
+&lt;li&gt;Created custom cost budgets with configured alert thresholds to prevent cost overruns.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Support:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Accessed the AWS Support Center, reviewed default support plans, and understood how to open support tickets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS IAM:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Acquired basic concepts of IAM Users, User Groups, Roles, and JSON Policies.&lt;/li&gt;
+&lt;li&gt;Understood how to enforce the Principle of Least Privilege across AWS resources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Successfully registered and configured a personal AWS account.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Inspected account details and active promotional credits.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Implemented AWS Budgets to alert on exceeding usage thresholds.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Explored AWS Support options and logged a test inquiry.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Understood core access management concepts in IAM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 1
+&lt;/div&gt;</description></item><item><title>Week 2 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.2-week2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.2-week2/</guid><description>&lt;p&gt;&lt;strong&gt;Module 1&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; AWS Networking, IAM Roles, Route 53, and AWS CLI&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-2"&gt;1. Plan and Deliverables in Week 2&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Discovering Amazon VPC&lt;/td&gt;
+ &lt;td&gt;000003&lt;/td&gt;
+ &lt;td&gt;VPC / Subnets / Route Tables / IGW&lt;/td&gt;
+ &lt;td&gt;Understand core networking components on AWS&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000003.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;Configuring Advanced VPC&lt;/td&gt;
+ &lt;td&gt;000003&lt;/td&gt;
+ &lt;td&gt;Public/Private Subnets / Security Groups&lt;/td&gt;
+ &lt;td&gt;Design and construct a multi-subnet network architecture&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000003.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Granting Access with IAM Roles for EC2&lt;/td&gt;
+ &lt;td&gt;000048&lt;/td&gt;
+ &lt;td&gt;IAM Role / EC2 / IAM Policy&lt;/td&gt;
+ &lt;td&gt;Understand safe cross-service credentials delegation using IAM Roles&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000048.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;DNS Management with Amazon Route 53&lt;/td&gt;
+ &lt;td&gt;000010&lt;/td&gt;
+ &lt;td&gt;Route 53 / Hosted Zones / DNS Resolver&lt;/td&gt;
+ &lt;td&gt;Implement private DNS resolution and hybrid DNS architectures&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000010.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Operations via AWS CLI&lt;/td&gt;
+ &lt;td&gt;000011&lt;/td&gt;
+ &lt;td&gt;AWS CLI / EC2 / IAM / S3&lt;/td&gt;
+ &lt;td&gt;Learn command-line interactions for AWS resource management&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000011.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Amazon VPC Fundamental Configuration&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-%20VPCs.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Subnet.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Internet-Gateway.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Route-Table.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 4
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Application Authorization via EC2 IAM Role&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-iam-role-attached-ec2.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Hybrid DNS Resolving with Route 53&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-tao-keypair.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-CloudFormation-Template.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Security-Group.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-add-RDGW.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-DNS.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Route53-Outbound-endpoints.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-Route53-Inbound-endpoints.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-check-nslookup.png"
+ alt="Minh chung 8"
+ class="evidence-gallery-image"
+ data-evidence-index="7"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-2', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-2', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 8
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Command Execution with AWS CLI&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-3')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-3" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week02-aws-cli-compact-evidence-cleanup.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Amazon VPC Networking:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Explored fundamental networking blocks: VPCs, subnets, route tables, and Internet Gateways (IGW).&lt;/li&gt;
+&lt;li&gt;Provisioned a custom VPC, enabled DNS resolution, and enabled DNS hostnames.&lt;/li&gt;
+&lt;li&gt;Constructed routing tables to connect public subnets with the Internet Gateway.&lt;/li&gt;
+&lt;li&gt;Used the VPC Resource Map visualization tool to inspect topology.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IAM Roles for Compute:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Analyzed advantages of utilizing IAM Roles over hard-coding static Access Keys within EC2.&lt;/li&gt;
+&lt;li&gt;Provisioned an IAM Instance Profile granting S3 read access, and successfully attached it to an running EC2 instance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon Route 53 Private Resolver:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Studied Hybrid DNS architectures connecting on-premises servers with Cloud infrastructure.&lt;/li&gt;
+&lt;li&gt;Deployed lab resources using CloudFormation templates.&lt;/li&gt;
+&lt;li&gt;Provisioned Route 53 Inbound and Outbound Endpoints and defined custom resolver rules.&lt;/li&gt;
+&lt;li&gt;Validated correct bi-directional name resolution via &lt;code&gt;nslookup&lt;/code&gt; command tests.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS CLI Administration:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Learned installation, profile setup, and interactive querying in terminal environments.&lt;/li&gt;
+&lt;li&gt;Verified target instance permissions fetched from the metadata service.&lt;/li&gt;
+&lt;li&gt;Executed basic AWS CLI operations on S3, SNS, IAM, and EC2, followed by clean-up scripts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Designed a custom private networking boundary using Amazon VPC.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Set up public and private routing topologies.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Eliminated storage of static security credentials on VMs using IAM Roles.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Integrated a Hybrid DNS architecture using Route 53 Resolver endpoints.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Managed various AWS resources programmatically using the AWS CLI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 2
+&lt;/div&gt;</description></item><item><title>Week 3 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.3-week3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.3-week3/</guid><description>&lt;p&gt;&lt;strong&gt;Module 1&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Compute Services - EC2, Kiro CLI, Lightsail, and Load Balancing&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-3"&gt;1. Plan and Deliverables in Week 3&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;VM Deployments on Amazon EC2&lt;/td&gt;
+ &lt;td&gt;000004&lt;/td&gt;
+ &lt;td&gt;Amazon EC2 / Sec Groups / Snapshots / AMI&lt;/td&gt;
+ &lt;td&gt;Launch Linux/Windows VMs, establish SSH/RDP connectivity, configure security groups&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000004.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;Local Development using Kiro CLI&lt;/td&gt;
+ &lt;td&gt;000049&lt;/td&gt;
+ &lt;td&gt;AWS Cloud9 / Kiro CLI / VS Code Terminal&lt;/td&gt;
+ &lt;td&gt;Transition from unavailable Cloud9 to Kiro CLI extension for local cloud execution&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000049.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Simplified Apps via Amazon Lightsail&lt;/td&gt;
+ &lt;td&gt;000045&lt;/td&gt;
+ &lt;td&gt;Lightsail / Databases / Backups / Cost Control&lt;/td&gt;
+ &lt;td&gt;Deploy WordPress &amp;amp; PrestaShop web instances with managed databases&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000045.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;High-Availability Setup (ALB)&lt;/td&gt;
+ &lt;td&gt;000006&lt;/td&gt;
+ &lt;td&gt;Launch Template / ALB / Target Groups&lt;/td&gt;
+ &lt;td&gt;Prepare dynamic load balancing layers for compute endpoints&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000006.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Auto Scaling Group Orchestration&lt;/td&gt;
+ &lt;td&gt;000006&lt;/td&gt;
+ &lt;td&gt;Auto Scaling / Scaling Policies / Testing&lt;/td&gt;
+ &lt;td&gt;Test elasticity thresholds, load stress scaling behavior, and clean up&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000006.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Multi-OS Deployments on Amazon EC2&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-VPC-Windows.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-VPC-Linux.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-Windows-instance-RDP.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-Linux-EC2-instance.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 4
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Kiro CLI Integration on VS Code Terminal&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-check-versionKIRO.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-openKIRO.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-aws-khoitaoKIRO.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-1', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-1', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 3
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Budget-Friendly Hosting with Amazon Lightsail&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-01.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-02.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-03.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-2', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-2', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 3
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deploy WordPress &amp;amp; PrestaShop CMS&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-3')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-3" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-db-available.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-db-endpoint.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-prestashop-admin-dashboard.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-prestashop-blueprint.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-prestashop-static-ip-created.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-prestashop-storefront.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-wordpress-dashboard.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-wordpress-instance-running.png"
+ alt="Minh chung 8"
+ class="evidence-gallery-image"
+ data-evidence-index="7"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-wordpress-ssh-open.png"
+ alt="Minh chung 9"
+ class="evidence-gallery-image"
+ data-evidence-index="8"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week03-lightsail-wordpress-static-ip.png"
+ alt="Minh chung 10"
+ class="evidence-gallery-image"
+ data-evidence-index="9"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-3', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-3', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 10
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Amazon EC2 Lifecycle &amp;amp; Virtualization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Launched Linux instances (SSH-access) and Windows Server instances (RDP-access).&lt;/li&gt;
+&lt;li&gt;Explored virtual storage blocks (EBS volumes), snapshot creations, and custom Amazon Machine Images (AMI).&lt;/li&gt;
+&lt;li&gt;Implemented Systems Manager Session Manager for RDP connections as a secure backup access path.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kiro CLI Alternative IDE:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Adopted Kiro CLI (terminal-based workspace assistant) as AWS Cloud9 is restricted for newer student accounts.&lt;/li&gt;
+&lt;li&gt;Successfully authenticated the client and initialized a sample Node.js environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon Lightsail Simplified Compute:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Launched a high-productivity single-node container/CMS instance for small projects.&lt;/li&gt;
+&lt;li&gt;Configured separate managed databases, assigned static IPs, and customized billing alarms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability &amp;amp; High Availability (ALB &amp;amp; ASG):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Created launch templates containing instance metadata and configurations.&lt;/li&gt;
+&lt;li&gt;Set up an Application Load Balancer (ALB) pointing traffic to defined Target Groups.&lt;/li&gt;
+&lt;li&gt;Configured an Auto Scaling Group (ASG) to dynamically maintain capacity based on traffic load.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Deployed and managed EC2 instances across different operating systems.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Configured AMI-based templates to easily replicate server setups.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Integrated Kiro CLI for terminal cloud development.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Launched functional WordPress and PrestaShop web applications on Lightsail.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Structured a highly-available, auto-scaling architecture behind an ALB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 3
+&lt;/div&gt;</description></item><item><title>Week 4 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.4-week4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.4-week4/</guid><description>&lt;p&gt;&lt;strong&gt;Module 1&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Storage, Databases, Monitoring, and Personal Project Launch&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-4"&gt;1. Plan and Deliverables in Week 4&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Static Web Hosting on S3&lt;/td&gt;
+ &lt;td&gt;000057&lt;/td&gt;
+ &lt;td&gt;S3 / Static Site / CloudFront&lt;/td&gt;
+ &lt;td&gt;Configure bucket options, policy and ACL for hosting public web pages&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000057.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;Relational Database with RDS&lt;/td&gt;
+ &lt;td&gt;000005&lt;/td&gt;
+ &lt;td&gt;Amazon RDS / MySQL / Security Groups&lt;/td&gt;
+ &lt;td&gt;Launch a managed MySQL database in private subnets and connect EC2 clients&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000005.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;CloudWatch System Monitoring&lt;/td&gt;
+ &lt;td&gt;000008&lt;/td&gt;
+ &lt;td&gt;CloudWatch / Metrics / Alarms / SNS&lt;/td&gt;
+ &lt;td&gt;Set up metrics, CPU stress alarms, and email notifications&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000008.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;Personal Project Bootstrap: HTML/CSS Portfolio&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;S3 / HTML / CSS / Cloud Resume&lt;/td&gt;
+ &lt;td&gt;Draft personal portfolio markup and host the initial design on an S3 endpoint&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;In Progress&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Static Website Hosting on Amazon S3&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-create-buckets3.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-upload3filebuckets.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-opensrcbuckets.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 3
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Relational Database Setup with Amazon RDS&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-Amazon%20Relational%20Database%20Service.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-createRDS_Security_Group.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-createDB_Subnet_Group.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-createRDS_database.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-create_data.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws-displaydata.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-1', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-1', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 6
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Metrics Monitoring with CloudWatch&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-awsCloudWatch_Workshop.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws_creatCloudWatch_Workshop.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws_cloudwatch-stack-subnet-resources.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-aws_cloudwatch-ec2-cpuutilization.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-cloudwatch-alarm-created.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-cloudwatch-sns-confirmation-email.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week04-cloudwatch-sns-subscription-confirmed.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-2', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-2', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 7
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Personal Project - Cloud Portfolio v1 on S3&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Amazon S3 Static Hosting:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Created S3 buckets, disabled block public access options, and configured bucket policies.&lt;/li&gt;
+&lt;li&gt;Uploaded assets and verified global access via the static website hosting endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon RDS Private Databases:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Launched a managed MySQL RDS instance in private subnets using custom DB Subnet Groups.&lt;/li&gt;
+&lt;li&gt;Configured port 3306 Security Group policies to restrict database access only to authorized EC2 instances.&lt;/li&gt;
+&lt;li&gt;Deployed a backend Node.js server on EC2 and connected it to the database using an &lt;code&gt;.env&lt;/code&gt; config file containing the RDS connection endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon CloudWatch Auditing:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Monitored instance metrics and configured Simple Notification Service (SNS) alarms to send email alerts on high CPU usage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Project Initiation (AWS Cloud Portfolio):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and structured an initial HTML/CSS portfolio template.&lt;/li&gt;
+&lt;li&gt;Uploaded the layout to S3 to prepare for future serverless backend integrations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hosted low-overhead static websites using Amazon S3 bucket features.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Securely separated database engines from the public internet using private subnets.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Established real-time alert notifications using CloudWatch and SNS.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Successfully initialized and hosted the frontend for the personal Cloud Portfolio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 4
+&lt;/div&gt;</description></item><item><title>Week 5 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.5-week5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.5-week5/</guid><description>&lt;p&gt;&lt;strong&gt;Module 2 &amp;amp; 3&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Security, Resource Governance, and Personal Portfolio Backend Setup&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-5"&gt;1. Plan and Deliverables in Week 5&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;S3 Security Practices&lt;/td&gt;
+ &lt;td&gt;000069&lt;/td&gt;
+ &lt;td&gt;S3 / Encryption / HTTPS Enforce&lt;/td&gt;
+ &lt;td&gt;Apply bucket policies enforcing HTTPS transfers and KMS encryption&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000069.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;IAM Cost Control Governance&lt;/td&gt;
+ &lt;td&gt;000064&lt;/td&gt;
+ &lt;td&gt;IAM / EC2 Policy Limits&lt;/td&gt;
+ &lt;td&gt;Write restrictive IAM policies to enforce region and size policies&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000064.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Tag-Based Resource Structuring&lt;/td&gt;
+ &lt;td&gt;000027&lt;/td&gt;
+ &lt;td&gt;Tagging / Resource Groups&lt;/td&gt;
+ &lt;td&gt;Organize AWS resources using Tag groups&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000027.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;Controlling EC2 access via Tags&lt;/td&gt;
+ &lt;td&gt;000028&lt;/td&gt;
+ &lt;td&gt;IAM / EC2 / Tag Permissions&lt;/td&gt;
+ &lt;td&gt;Write policies enforcing tag-matching to control EC2 actions&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000028.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Personal Project: Backend Counter setup&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;DynamoDB / AWS Lambda / IAM Role&lt;/td&gt;
+ &lt;td&gt;Set up DynamoDB table and Lambda visitor counter function&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;In Progress&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Hardening Storage Security on Amazon S3&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-S3-Security-Practices.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-create-CloudFormation-Template.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-s3-security-cli-profile-check.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-s3-security-require-https.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-0', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-0', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 4
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Resource Cost Control with IAM Policies&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week05-IAM%20Cost%20Control.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Organize Resources via Resource Groups&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Enforce Tag-Based IAM Access Controls&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Personal Project - Visitor Counter Backend&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_createDynamoDB.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_create_Lambda_function.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20Grant-Lambda-access-to-DynamoDB.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_projectLambda_count.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20View_CloudWatch_logs.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 5
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;S3 Secure Bucket Topologies:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Built test architectures using parameterized CloudFormation templates (modified EC2 sizes to &lt;code&gt;t3.micro&lt;/code&gt; to maintain Free Tier limits).&lt;/li&gt;
+&lt;li&gt;Configured separate AWS CLI profiles (&lt;code&gt;user1&lt;/code&gt;, &lt;code&gt;user2&lt;/code&gt;) to test cross-boundary bucket accesses.&lt;/li&gt;
+&lt;li&gt;Wrote S3 Bucket Policies restricting HTTP access, accepting only TLS/HTTPS data transfers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IAM Policy Governance:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Learned to prevent cost overruns using declarative IAM policies.&lt;/li&gt;
+&lt;li&gt;Configured IAM Policies using conditional operators (&lt;code&gt;StringEquals&lt;/code&gt;, &lt;code&gt;ArnEquals&lt;/code&gt;) that prevent spinning up high-cost server types, unauthorized EBS models, or working in unauthorized AWS Regions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tagging Strategy &amp;amp; Resource Groups:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Managed metadata boundaries on AWS using logical Key-Value tags.&lt;/li&gt;
+&lt;li&gt;Organized distributed resources into visual units using Tag-Based Resource Groups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Project Serverless Counter backend:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Created an Amazon DynamoDB NoSQL table (&lt;code&gt;cloud-portfolio-table&lt;/code&gt;) using a partition key (&lt;code&gt;id&lt;/code&gt;) to track site page visits.&lt;/li&gt;
+&lt;li&gt;Wrote a Node.js-based AWS Lambda function to increment and return database visitor logs.&lt;/li&gt;
+&lt;li&gt;Assigned a custom IAM execution role allowing the Lambda function to perform read/write queries on DynamoDB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Standardized secure transit policies on object storage endpoints.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Enforced cost guardrails on IAM users.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Grouped cloud assets using structured tagging metadata.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Successfully initialized the backend counter lambda and verified logs in CloudWatch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 5
+&lt;/div&gt;</description></item><item><title>Week 6 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.6-week6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.6-week6/</guid><description>&lt;p&gt;&lt;strong&gt;Module 2 &amp;amp; 3&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Operations - Lambda Automation, Advanced Monitoring, SSM, IaC, and API Gateway&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-6"&gt;1. Plan and Deliverables in Week 6&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Automated Server Shutdown &amp;amp; Alerts&lt;/td&gt;
+ &lt;td&gt;000022&lt;/td&gt;
+ &lt;td&gt;Lambda / EventBridge / Slack Webhook&lt;/td&gt;
+ &lt;td&gt;Build schedules to automatically shut down instances and notify via Slack&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000022.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;Advanced Dashboarding with Grafana&lt;/td&gt;
+ &lt;td&gt;000029&lt;/td&gt;
+ &lt;td&gt;CloudWatch / Grafana&lt;/td&gt;
+ &lt;td&gt;Deploy Grafana and configure IAM roles to fetch CloudWatch metrics&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000029.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Keyless SSH with SSM Session Manager&lt;/td&gt;
+ &lt;td&gt;000058&lt;/td&gt;
+ &lt;td&gt;Systems Manager / EC2 IAM Role&lt;/td&gt;
+ &lt;td&gt;Connect to private subnet servers securely without key pairs or open port 22&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000058.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;Infrastructure as Code (IaC)&lt;/td&gt;
+ &lt;td&gt;000037&lt;/td&gt;
+ &lt;td&gt;CloudFormation / JSON Templates&lt;/td&gt;
+ &lt;td&gt;Automate resource provisioning using CloudFormation stacks&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000037.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Personal Project: API Gateway Endpoint&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;API Gateway / Lambda / CORS&lt;/td&gt;
+ &lt;td&gt;Build an HTTP API Gateway endpoint connected to the Lambda backend&lt;/td&gt;
+ &lt;td&gt;_&lt;/td&gt;
+ &lt;td&gt;In Progress&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Automated EC2 Shutdown &amp;amp; Slack Alert Notifications&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Multi-Source Cloud Monitoring via Grafana Dashboards&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Secure Access via Systems Manager Session Manager&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Resource Automation using AWS CloudFormation Stacks&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Personal Project - API Gateway Lambda Integration&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20create_configure_API.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20create_configure_API2.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20create_configure_API3.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20create_configure_API4.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20Test_API.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20CORS.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20CloudWatch_Log_Group.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20CloudWatch_Logevent.png"
+ alt="Minh chung 8"
+ class="evidence-gallery-image"
+ data-evidence-index="7"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 8
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Serverless Operations Automation:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrote Lambda automation scripts with IAM execution roles to discover and stop idle servers.&lt;/li&gt;
+&lt;li&gt;Integrated Amazon EventBridge rules to trigger Lambda executions on fixed schedules.&lt;/li&gt;
+&lt;li&gt;Connected an incoming webhook URL to post execution logs to a Slack channel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom Monitoring Dashboards (Grafana):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Launched a host VM, installed Grafana, and configured an IAM Instance Profile to query metrics.&lt;/li&gt;
+&lt;li&gt;Built custom monitoring dashboards aggregating key metrics like CPU and disk I/O.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Systems Manager Session Manager:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrote IAM Roles containing AWS-managed policies for Systems Manager.&lt;/li&gt;
+&lt;li&gt;Established console-based shell sessions to eliminate standard SSH keys and port 22 vulnerabilities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS CloudFormation (IaC):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Provisioned resource configurations using JSON-based templates.&lt;/li&gt;
+&lt;li&gt;Acquired understanding of the Stack lifecycle: creates, updates, drift detections, and deletion procedures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Project API Gateway Integration:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Created an Amazon API Gateway REST API with a &lt;code&gt;/visitor&lt;/code&gt; route pointing to the Lambda counter.&lt;/li&gt;
+&lt;li&gt;Configured Cross-Origin Resource Sharing (CORS) rules to accept incoming web calls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Decreased operating costs by shutting down servers automatically after hours.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Standardized monitoring dashboards on Grafana using cloud data sources.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hardened administrative connections on running servers using SSM Session Manager.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Successfully provisioned multi-tier networks using AWS CloudFormation.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Completed the serverless backend pipeline: API Gateway -&amp;gt; Lambda -&amp;gt; DynamoDB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 6
+&lt;/div&gt;</description></item><item><title>Week 7 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.7-week7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.7-week7/</guid><description>&lt;p&gt;&lt;strong&gt;Module 2 &amp;amp; 3&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Security - IAM Permission Boundaries, Security Hub, WAF, and IAM Auditing&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-7"&gt;1. Plan and Deliverables in Week 7&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;IAM Permission Boundaries&lt;/td&gt;
+ &lt;td&gt;000030&lt;/td&gt;
+ &lt;td&gt;IAM / Permission Boundary&lt;/td&gt;
+ &lt;td&gt;Enforce maximum permission boundaries for delegation accounts&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000030.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;Restricted IAM Roles via Conditions&lt;/td&gt;
+ &lt;td&gt;000044&lt;/td&gt;
+ &lt;td&gt;IAM / STS / Condition Keys&lt;/td&gt;
+ &lt;td&gt;Enforce IP, timeline, and security constraints on AssumeRole calls&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000044.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;AWS Security Hub Compliance&lt;/td&gt;
+ &lt;td&gt;000018&lt;/td&gt;
+ &lt;td&gt;Security Hub / GuardDuty&lt;/td&gt;
+ &lt;td&gt;Enable Security Hub and review compliance scores&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000018.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;Web Protection via AWS WAF&lt;/td&gt;
+ &lt;td&gt;000026&lt;/td&gt;
+ &lt;td&gt;AWS WAF / Application Load Balancer&lt;/td&gt;
+ &lt;td&gt;Protect servers from SQL injection and DDoS attacks using Web ACLs&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000026.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Personal Project: Access Audit&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;IAM / Lambda Resource Policy&lt;/td&gt;
+ &lt;td&gt;Apply Least Privilege to Portfolio IAM roles and audit public access paths&lt;/td&gt;
+ &lt;td&gt;_&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Restricted Delegation via IAM Permission Boundaries&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Secure AssumeRole Actions with Conditional Keys&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Automated Security Audits in AWS Security Hub&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week07_Security%20Hub.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Hardening Web Endpoints using AWS WAF Rules&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Personal Project - Serverless Security Audits&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_Lambda%27s%20IAM%20Role.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_Permission_policy.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_Lambda%20Resource-based%20policy.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_API_Gateway_route.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_CORS.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_Loggroups.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 6
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IAM Permission Boundaries:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrote boundary policies to limit the maximum permissions delegated administrators can assign.&lt;/li&gt;
+&lt;li&gt;Validated authorization rules on test accounts to ensure privilege escalation was blocked.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AssumeRole Condition Policy:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrote conditional keys in IAM Trust Relationships to limit Role assumption.&lt;/li&gt;
+&lt;li&gt;Configured filters restricting access to corporate IP blocks and active business hours.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Security Hub Assessments:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Activated Security Hub to run automated security compliance scans against target cloud accounts.&lt;/li&gt;
+&lt;li&gt;Reviewed score breakdowns against standard security frameworks, including CIS and AWS Foundations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS WAF Web Application Firewalls:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Created Web Access Control Lists (Web ACLs) and attached them to Application Load Balancers.&lt;/li&gt;
+&lt;li&gt;Configured Managed Rulesets to block common exploits, including Cross-Site Scripting (XSS) and SQL injection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Project Access Audit:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Applied the Principle of Least Privilege to the portfolio Lambda execution roles.&lt;/li&gt;
+&lt;li&gt;Removed unnecessary wildcard resource access permissions (&lt;code&gt;&amp;quot;Resource&amp;quot;: &amp;quot;*&amp;quot;&lt;/code&gt;) from the custom DynamoDB policies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Blocked privilege escalation attacks using IAM Permission Boundaries.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Enforced context-aware authentication rules on IAM AssumeRole actions.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Identified security vulnerabilities on AWS accounts using automated compliance scanners.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Mitigated common web exploits on public-facing workloads using AWS WAF rules.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Audited serverless resource authorization policies on the personal project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 7
+&lt;/div&gt;</description></item><item><title>Week 8 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.8-week8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.8-week8/</guid><description>&lt;p&gt;&lt;strong&gt;Module 2 &amp;amp; 3&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Reliability &amp;amp; Performance - AWS Backup, SSL/HTTPS, Docker, and Amazon ECS&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-8"&gt;1. Plan and Deliverables in Week 8&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Automated Backup Vaults&lt;/td&gt;
+ &lt;td&gt;000013&lt;/td&gt;
+ &lt;td&gt;AWS Backup / Recovery Plans&lt;/td&gt;
+ &lt;td&gt;Configure Backup Vaults and define automated snapshot schedules&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000013.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;SSL/HTTPS Web Security&lt;/td&gt;
+ &lt;td&gt;000082&lt;/td&gt;
+ &lt;td&gt;CloudFront / Route 53 / ACM&lt;/td&gt;
+ &lt;td&gt;Provision TLS/SSL certificates and enforce global HTTPS connections&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000082.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Container Packaging with Docker&lt;/td&gt;
+ &lt;td&gt;000015&lt;/td&gt;
+ &lt;td&gt;Dockerfile / Amazon ECR&lt;/td&gt;
+ &lt;td&gt;Package a web app as a container image and push it to Amazon ECR&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000015.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;Orchestrating with Amazon ECS Fargate&lt;/td&gt;
+ &lt;td&gt;000016&lt;/td&gt;
+ &lt;td&gt;Amazon ECS / Task Definitions&lt;/td&gt;
+ &lt;td&gt;Deploy containerized workloads on a serverless Fargate cluster&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000016.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Personal Project: Production Vue.js build&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;Vue.js / TypeScript / Vite&lt;/td&gt;
+ &lt;td&gt;Integrate the backend visitor counter into the Vue portfolio and run a production build&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Centralized Disaster Recovery via AWS Backup Vaults&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;SSL/TLS Certificate Provisioning using ACM&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Container Image Packaging and Storage on ECR&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Orchestrating Serverless Containers on Amazon ECS&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Personal Project - Visitor Counter Integration &amp;amp; Build&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_frontend_api_integration.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_frontend_build_success.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_visitor_counter.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_web_counter_uccess.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_dynamodb_counter_success.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 5
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AWS Backup Disaster Recovery:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Configured automated snapshot schedules and lifecycle policies using centralized Backup Plans.&lt;/li&gt;
+&lt;li&gt;Created secure Backup Vaults to store system-wide backups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSL/TLS ACM Integration:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Requested public SSL certificates using AWS Certificate Manager (ACM).&lt;/li&gt;
+&lt;li&gt;Configured secure HTTPS redirection rules on an Application Load Balancer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Docker Containerization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrote multi-stage Dockerfiles to optimize image footprint.&lt;/li&gt;
+&lt;li&gt;Created secure private repositories in Amazon Elastic Container Registry (ECR) and pushed container images using the docker CLI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon ECS (Elastic Container Service):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Explored container orchestration models, focusing on Task Definitions, Services, and Clusters.&lt;/li&gt;
+&lt;li&gt;Deployed containerized applications on serverless AWS Fargate compute.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Project Vue/Vite Build:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Modified the portfolio UI source code to send HTTP requests to the API Gateway &lt;code&gt;/visitor&lt;/code&gt; endpoint.&lt;/li&gt;
+&lt;li&gt;Verified real-time counter updates on the Vue frontend.&lt;/li&gt;
+&lt;li&gt;Ran a production build with Vite to output the optimized static build directory (&lt;code&gt;dist/&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Automated backup schedules for disaster recovery.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Configured end-to-end TLS/SSL encryption.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Packaged web applications into Docker container images.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Deployed containerized applications on AWS Fargate.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Compiled the Vue frontend to optimized static files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 8
+&lt;/div&gt;</description></item><item><title>Week 9 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.9-week9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.9-week9/</guid><description>&lt;p&gt;&lt;strong&gt;Module 4, 5, 6 &amp;amp; 7&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Serverless Part 1 - S3 &amp;amp; CloudFront Deployment, CI/CD, and AWS SAM&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-9"&gt;1. Plan and Deliverables in Week 9&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Serverless CI/CD Pipeline&lt;/td&gt;
+ &lt;td&gt;000084&lt;/td&gt;
+ &lt;td&gt;AWS CodePipeline / CodeBuild&lt;/td&gt;
+ &lt;td&gt;Build a CI/CD pipeline to automate serverless application deployments&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000084.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;Event-Driven Storage Lambda&lt;/td&gt;
+ &lt;td&gt;000078&lt;/td&gt;
+ &lt;td&gt;S3 Events / AWS Lambda&lt;/td&gt;
+ &lt;td&gt;Configure Lambda functions to process data from S3 and update DynamoDB&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000078.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Frontend API Integration&lt;/td&gt;
+ &lt;td&gt;000079&lt;/td&gt;
+ &lt;td&gt;API Gateway / CORS / JS Client&lt;/td&gt;
+ &lt;td&gt;Build frontend interfaces to send AJAX queries to backend APIs&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000079.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;AWS SAM Deployments&lt;/td&gt;
+ &lt;td&gt;000080&lt;/td&gt;
+ &lt;td&gt;AWS SAM / CloudFormation&lt;/td&gt;
+ &lt;td&gt;Define and deploy serverless architectures using AWS SAM templates&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000080.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Personal Project: S3 &amp;amp; CloudFront&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;S3 / Amazon CloudFront&lt;/td&gt;
+ &lt;td&gt;Upload static assets to S3 and configure a CloudFront CDN distribution&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Automated Deployments with AWS CodePipeline&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Event-Driven Data Processing via Lambda&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Safe Cross-Origin Resource Sharing on APIs&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Declarative Serverless IaC using AWS SAM&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Personal Project - CloudFront Distribution Hosting&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20build%20production.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_ls%20-la%20dist.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_upload_dist.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_create_CloudFront_Distribution.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_deploys3.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 5
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Continuous Integration / Continuous Deployment:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Created multi-stage deployment pipelines using AWS CodePipeline.&lt;/li&gt;
+&lt;li&gt;Configured AWS CodeBuild stages to build, test, and package serverless code automatically on git push events.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Event-Driven Serverless Workloads:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Connected S3 object creation triggers (&lt;code&gt;ObjectCreated:Put&lt;/code&gt;) to trigger a downstream Lambda function.&lt;/li&gt;
+&lt;li&gt;Wrote data-parsing scripts to store file metadata inside Amazon DynamoDB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AWS Serverless Application Model (SAM):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Used AWS SAM templates to model serverless applications (APIs, Lambdas, and Databases) as declarative YAML.&lt;/li&gt;
+&lt;li&gt;Built and deployed SAM architectures using the &lt;code&gt;sam build&lt;/code&gt; and &lt;code&gt;sam deploy&lt;/code&gt; CLI commands.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Project CDN Hosting Integration:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Uploaded the optimized static build directory (&lt;code&gt;dist/&lt;/code&gt;) to the portfolio S3 bucket.&lt;/li&gt;
+&lt;li&gt;Created an Amazon CloudFront distribution pointing to the S3 bucket to cache portfolio assets globally.&lt;/li&gt;
+&lt;li&gt;Verified global secure HTTPS access via the CloudFront domain:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;https://ddusufgoys11.cloudfront.net&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Constructed automated CI/CD pipelines for serverless applications.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Deployed event-driven microservices triggered by file uploads.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Configured CORS policies to secure web client API requests.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Deployed multi-service serverless applications using AWS SAM.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Hosted the portfolio static website globally via Amazon CloudFront CDN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 9
+&lt;/div&gt;</description></item><item><title>Week 10 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.10-week10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.10-week10/</guid><description>&lt;p&gt;&lt;strong&gt;Module 4, 5, 6 &amp;amp; 7&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Serverless Part 2 - Cognito, SQS/SNS, Step Functions, and CloudFront Error Handling&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Detailed contents are updated upon completing each lab practice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-10"&gt;1. Plan and Deliverables in Week 10&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Cognito User Authentication&lt;/td&gt;
+ &lt;td&gt;000081&lt;/td&gt;
+ &lt;td&gt;Amazon Cognito / JWT Tokens&lt;/td&gt;
+ &lt;td&gt;Configure User Pools to secure serverless endpoints&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000081.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;Asynchronous Message Queues&lt;/td&gt;
+ &lt;td&gt;000083&lt;/td&gt;
+ &lt;td&gt;Amazon SQS / Amazon SNS&lt;/td&gt;
+ &lt;td&gt;Build loosely coupled architectures using messaging queues&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000083.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Distributed Tracing with X-Ray&lt;/td&gt;
+ &lt;td&gt;000085&lt;/td&gt;
+ &lt;td&gt;AWS X-Ray / CloudWatch Metrics&lt;/td&gt;
+ &lt;td&gt;Debug serverless request latency and trace system bottlenecks&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000085.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;AWS Step Functions Workflows&lt;/td&gt;
+ &lt;td&gt;000047&lt;/td&gt;
+ &lt;td&gt;Step Functions / State Machines&lt;/td&gt;
+ &lt;td&gt;Orchestrate complex, multi-step workflows using State Machines&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://000047.awsstudygroup.com/vi/"&gt;View Lab&lt;/a&gt;&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Personal Project: SPA Refresh Fix&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;CloudFront Error Pages / GitHub Actions&lt;/td&gt;
+ &lt;td&gt;Fix SPA route refresh errors on CloudFront and set up CI/CD&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Secure User Registrations using Amazon Cognito Pools&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Loosely Coupled Systems via Amazon SQS and SNS&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Distributed Application Tracing with AWS X-Ray&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Multi-Step Process Coordination with Step Functions&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Personal Project - SPA Routing &amp;amp; Pipeline Integration&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20github-readme.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20github-commit-final-source.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20github-actions-deploy.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20final-build-file.png"
+ alt="Minh chung 4"
+ class="evidence-gallery-image"
+ data-evidence-index="3"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20cloudfront-distribution-enabled.png"
+ alt="Minh chung 5"
+ class="evidence-gallery-image"
+ data-evidence-index="4"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20cloudfront-error.png"
+ alt="Minh chung 6"
+ class="evidence-gallery-image"
+ data-evidence-index="5"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20cloudfront-https-homepage.png"
+ alt="Minh chung 7"
+ class="evidence-gallery-image"
+ data-evidence-index="6"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project%20project-confirm-modal.png"
+ alt="Minh chung 8"
+ class="evidence-gallery-image"
+ data-evidence-index="7"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-4', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-4', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 8
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User Identity Management (Cognito):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Created Cognito User Pools to securely handle registration, sign-in, and account confirmation.&lt;/li&gt;
+&lt;li&gt;Integrated JWT (JSON Web Tokens) validation to secure backend REST endpoints.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Asynchronous Message Processing:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Built decoupled, fault-tolerant messaging channels using SQS (Simple Queue Service) and SNS (Simple Notification Service).&lt;/li&gt;
+&lt;li&gt;Implemented fan-out event architectures to trigger parallel backend processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Distributed App Performance (AWS X-Ray):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrote X-Ray instrumentation libraries to trace API latencies and downstream database request times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Process Coordination (AWS Step Functions):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Orchestrated complex, multi-step business logic using ASL (Amazon States Language) State Machines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Project SPA Route Fixes:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Solved the common Single Page Application (SPA) refresh issue where reloading nested routes returned &lt;code&gt;AccessDenied&lt;/code&gt; errors from S3.&lt;/li&gt;
+&lt;li&gt;Configured Custom Error Pages on the CloudFront distribution to redirect 403/404 response codes to &lt;code&gt;/index.html&lt;/code&gt; with a 200 OK status.&lt;/li&gt;
+&lt;li&gt;Configured a GitHub Actions workflow to automate building and deploying the Vue client to S3 on git pushes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Standardized secure user authentication flows on serverless APIs.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Decoupled messaging backends to absorb sudden load spikes.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Traced system latency bottlenecks using AWS X-Ray.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Deployed state-machine workflows to coordinate multi-service tasks.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Fixed SPA route refresh errors on CloudFront and set up automated CI/CD.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 10
+&lt;/div&gt;</description></item><item><title>Week 11 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.11-week11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.11-week11/</guid><description>&lt;p&gt;&lt;strong&gt;Module 4, 5, 6 &amp;amp; 7&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Architecture Optimization, End-to-End Testing, and Workshop Documentation&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This week focused on optimizing the personal portfolio, testing system-wide flows, and writing detailed workshop documentation.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-11"&gt;1. Plan and Deliverables in Week 11&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Designing Portfolio Architecture&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;Draw.io / CloudFront / S3 / Lambda&lt;/td&gt;
+ &lt;td&gt;Draw the AWS architecture diagram representing actual deployed resources&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;System-wide End-to-End Testing&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;CloudFront / API Gateway / DynamoDB&lt;/td&gt;
+ &lt;td&gt;Validate user client queries, Lambda triggers, and DynamoDB database updates&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Drafting Workshop Docs (Part 1)&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;Markdown Docs / Architecture&lt;/td&gt;
+ &lt;td&gt;Document the project overview, prerequisites, architecture, and deployment steps&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;Drafting Workshop Docs (Part 2)&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;Markdown Docs / CloudWatch / Cleanup&lt;/td&gt;
+ &lt;td&gt;Document end-to-end testing, logging checks, and clean-up commands&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Audit and Evidence Gathering&lt;/td&gt;
+ &lt;td&gt;Personal Project&lt;/td&gt;
+ &lt;td&gt;S3 Buckets / CloudWatch Logs&lt;/td&gt;
+ &lt;td&gt;Gather screenshots and evidence of running services for the final report&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;AWS Cloud Portfolio Architecture Diagram&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-0')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-0" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-0', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-cloud-portfolio-architecture.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Public Website Running via CloudFront URL&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-1')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-1" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-1', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project_cloudfront-website-running.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Compiled Production Assets in S3 Bucket&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-2')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-2" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-2', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-s3-static-build-files.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Live API Gateway &lt;code&gt;/visitor&lt;/code&gt; Route Execution&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-3')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-3" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-3', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-api-gateway-visitor-endpoint.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-api-gateway-route-visitor.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-3', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-3', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 2
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Serverless Counter Lambda Logic&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-4')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-4" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-4', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-lambda-visitor-counter-function.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;/div&gt;
+
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Structural Workshop Documentation&lt;/td&gt;
+ &lt;td&gt;
+
+
+
+
+&lt;button type="button" class="evidence-gallery-button" onclick="openEvidenceGallery('evidence-gallery-5')"&gt;View Evidence&lt;/button&gt;
+
+&lt;div id="evidence-gallery-5" class="evidence-gallery-modal" aria-hidden="true" data-current-index="0" onclick="closeEvidenceGallery('evidence-gallery-5', event)"&gt;
+ &lt;button type="button" class="evidence-gallery-close" aria-label="Close" onclick="closeEvidenceGallery('evidence-gallery-5', event)"&gt;&amp;times;&lt;/button&gt;
+
+ &lt;div class="evidence-gallery-stage" onclick="event.stopPropagation()"&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-workshop-documentation-overview.png"
+ alt="Minh chung 1"
+ class="evidence-gallery-image is-active"
+ data-evidence-index="0"
+ style="display: block;"
+ &gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-workshop-documentation-architecture.png"
+ alt="Minh chung 2"
+ class="evidence-gallery-image"
+ data-evidence-index="1"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;img
+ src="https://tronghieu1201.github.io/aws-fcj-learning-journey/images/week_project-workshop-documentation-deployment.png"
+ alt="Minh chung 3"
+ class="evidence-gallery-image"
+ data-evidence-index="2"
+ style="display: none;"
+ hidden&gt;
+ 
+ &lt;/div&gt;
+
+ 
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-prev" aria-label="Previous image" onclick="moveEvidenceGallery('evidence-gallery-5', -1, event)"&gt;&amp;#8249;&lt;/button&gt;
+ &lt;button type="button" class="evidence-gallery-nav evidence-gallery-next" aria-label="Next image" onclick="moveEvidenceGallery('evidence-gallery-5', 1, event)"&gt;&amp;#8250;&lt;/button&gt;
+ &lt;div class="evidence-gallery-counter" onclick="event.stopPropagation()"&gt;
+ &lt;span class="evidence-gallery-current"&gt;1&lt;/span&gt; / 3
+ &lt;/div&gt;
+ 
+&lt;/div&gt;
+
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Designing the Portfolio Architecture Diagram:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed a clean architecture diagram using Draw.io to represent actual deployed cloud services.&lt;/li&gt;
+&lt;li&gt;Excluded Route 53 from the diagram as the project uses the default CloudFront HTTPS domain instead of a custom domain.&lt;/li&gt;
+&lt;li&gt;Represented actual traffic paths: User -&amp;gt; CloudFront CDN -&amp;gt; S3 (Static Assets) and client AJAX -&amp;gt; API Gateway -&amp;gt; Lambda -&amp;gt; DynamoDB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;System-wide End-to-End Testing:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Accessed the live site via the CloudFront URL and verified fast, secure asset loads over HTTPS.&lt;/li&gt;
+&lt;li&gt;Verified that reloading pages did not return S3 &lt;code&gt;AccessDenied&lt;/code&gt; errors.&lt;/li&gt;
+&lt;li&gt;Tested the &lt;code&gt;/visitor&lt;/code&gt; endpoint directly and verified that DB count records incremented properly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drafting Technical Workshop Documentation:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Drafted the &lt;strong&gt;Overview&lt;/strong&gt; section describing project goals and benefits.&lt;/li&gt;
+&lt;li&gt;Drafted the &lt;strong&gt;Prerequisites&lt;/strong&gt; section listing AWS accounts, Git, Node.js, and CLI dependencies.&lt;/li&gt;
+&lt;li&gt;Drafted the &lt;strong&gt;Architecture&lt;/strong&gt; section describing S3 bucket setups and database tables.&lt;/li&gt;
+&lt;li&gt;Drafted the &lt;strong&gt;Deployment&lt;/strong&gt; section detailing Vite builds and S3 asset uploads.&lt;/li&gt;
+&lt;li&gt;Drafted the &lt;strong&gt;Testing, Monitoring, and Clean-Up&lt;/strong&gt; sections to guide users through testing flows, inspecting Lambda execution logs in CloudWatch, and cleaning up resources to prevent unexpected charges.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Review and Standardization:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Ensured consistent terminology throughout the worklog, clarifying that the S3 bucket hosts &amp;ldquo;compiled static assets&amp;rdquo; rather than the raw application &amp;ldquo;source code.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Audited project links:
+&lt;ul&gt;
+&lt;li&gt;GitHub repository: &lt;code&gt;https://github.com/tronghieu1201/portfolio&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;GitHub Pages backup: &lt;code&gt;https://tronghieu1201.github.io/portfolio/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Live CloudFront domain: &lt;code&gt;https://ddusufgoys11.cloudfront.net&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Mapped out the actual deployed resource layout using Draw.io.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Validated secure, fast global content delivery via CloudFront.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Verified that client API queries update the DynamoDB database.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Drafted detailed step-by-step workshop deployment documentation.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Organized all necessary system screenshots and evidence for the final report.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WEEK 11
+&lt;/div&gt;</description></item><item><title>Week 12 - Worklog</title><link>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.12-week12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tronghieu1201.github.io/aws-fcj-learning-journey/1-worklog/1.12-week12/</guid><description>&lt;p&gt;&lt;strong&gt;Module 4, 5, 6 &amp;amp; 7&lt;/strong&gt; &lt;strong&gt;Topic:&lt;/strong&gt; Internship Summary, Knowledge Consolidation, and Final Report Polishing&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This final week focused on reviewing my 12-week learning journey, compiling my technical achievements, documenting lessons learned, and polishing the final report.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="1-plan-and-deliverables-in-week-12"&gt;1. Plan and Deliverables in Week 12&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Day&lt;/th&gt;
+ &lt;th&gt;Task Description&lt;/th&gt;
+ &lt;th&gt;Lab ID&lt;/th&gt;
+ &lt;th&gt;Related Service / Topic&lt;/th&gt;
+ &lt;th&gt;Primary Objective&lt;/th&gt;
+ &lt;th&gt;Reference&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mon&lt;/td&gt;
+ &lt;td&gt;Reviewing Weeks 1-4 Achievements&lt;/td&gt;
+ &lt;td&gt;Summary&lt;/td&gt;
+ &lt;td&gt;IAM / VPC / EC2 / S3 / RDS / CloudWatch&lt;/td&gt;
+ &lt;td&gt;Review fundamental cloud networking, compute, storage, and databases&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Tue&lt;/td&gt;
+ &lt;td&gt;Reviewing Weeks 5-8 Achievements&lt;/td&gt;
+ &lt;td&gt;Summary&lt;/td&gt;
+ &lt;td&gt;IAM Policies / Lambda / DynamoDB / ECS&lt;/td&gt;
+ &lt;td&gt;Review serverless functions, security boundaries, and container orchestration&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Wed&lt;/td&gt;
+ &lt;td&gt;Reviewing Weeks 9-11 Achievements&lt;/td&gt;
+ &lt;td&gt;Summary&lt;/td&gt;
+ &lt;td&gt;S3 / CloudFront / SAM / CI/CD Pipelines&lt;/td&gt;
+ &lt;td&gt;Review CDN configurations, infrastructure pipelines, and documentation&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thu&lt;/td&gt;
+ &lt;td&gt;Documenting Lessons Learned&lt;/td&gt;
+ &lt;td&gt;Summary&lt;/td&gt;
+ &lt;td&gt;Region Checks / Costs / Route Refresh&lt;/td&gt;
+ &lt;td&gt;Document common issues, bug resolutions, and cost management practices&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fri&lt;/td&gt;
+ &lt;td&gt;Finalizing the Internship Report&lt;/td&gt;
+ &lt;td&gt;Summary&lt;/td&gt;
+ &lt;td&gt;Worklog Polishing / Final Submission&lt;/td&gt;
+ &lt;td&gt;Review the entire report to ensure weeks are logically linked and clear&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;td&gt;Completed&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="2-evidence-gallery"&gt;2. Evidence Gallery&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Requirement&lt;/th&gt;
+ &lt;th&gt;Proof&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;12-Week Structured Internship Worklog Summary&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;personal Project Serverless Architecture Deployment&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Consolidating Cloud Knowledge and Best Practices&lt;/td&gt;
+ &lt;td&gt;
+&lt;a class="btn btn-default"&gt;
+ 
+ 
+ 
+ View Evidence
+ 
+&lt;/a&gt;
+&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="3-topics-covered"&gt;3. Topics Covered&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reviewing Fundamental AWS Cloud Topologies (Weeks 1-4):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Consolidated my understanding of AWS accounts, Free Tier limits, Billing Dashboards, and IAM cost alerts (Budgets).&lt;/li&gt;
+&lt;li&gt;Reviewed core networking concepts, including custom VPCs, public/private subnets, Internet Gateways, and security groups.&lt;/li&gt;
+&lt;li&gt;Reviewed compute deployments (EC2, Lightsail, Auto Scaling) and relational databases (RDS MySQL) in private subnets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reviewing Advanced Security &amp;amp; Compute Topologies (Weeks 5-8):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewed cost management strategies using region and instance-size constraints in IAM policies.&lt;/li&gt;
+&lt;li&gt;Reviewed tagging strategies, S3 security policies, and SSM Session Manager connections.&lt;/li&gt;
+&lt;li&gt;Consolidated container orchestration concepts on serverless compute (Docker &amp;amp; ECS Fargate).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reviewing Serverless Architectures &amp;amp; Deployment Pipelines (Weeks 9-11):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewed serverless application structures, API endpoints, NoSQL database tables (DynamoDB), and Lambda counter functions.&lt;/li&gt;
+&lt;li&gt;Consolidated CDN caching topologies (CloudFront) and automated delivery pipelines (GitHub Actions).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consolidating Key Technical Lessons Learned:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Region Consistency:&lt;/strong&gt; Emphasized checking current active Regions, as mismatched Regions cause most service discovery and routing errors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost Management:&lt;/strong&gt; Stressed monitoring the Billing Dashboard closely, especially after deploying EC2, RDS, NAT Gateways, or WAF.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SPA Route Refreshing:&lt;/strong&gt; Documented the CloudFront Custom Error Page redirect fix (&lt;code&gt;index.html&lt;/code&gt;) to resolve route refresh errors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Serverless Debugging:&lt;/strong&gt; Documented using CloudWatch Logs to trace execution errors across API Gateway, Lambda, and DynamoDB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Evaluation and Growth Areas:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Strengths:&lt;/strong&gt; Successfully integrated distributed AWS services into a functional, secure serverless portfolio with automated CI/CD pipelines.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opportunities for Improvement:&lt;/strong&gt; Acquired basic concepts for advanced services (Cognito, ECS, Step Functions, SQS/SNS) but have not integrated them deeply.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Future Goals:&lt;/strong&gt; Plan to explore advanced CI/CD pipelines, container orchestration, and IaC (Terraform) in future cloud projects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="4-key-takeaways"&gt;4. Key Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Summarized all technical deliverables across the 12-week internship.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Reviewed the architecture and deployment steps of the personal project.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Documented critical troubleshooting steps, including fixing CloudFront route refresh errors.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Identified key areas for future professional growth.&lt;/li&gt;
+&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Completed the final 12-week internship report for submission.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style="margin-top: 32px; padding: 14px 20px; text-align: center; color: #0b2538; border-radius: 10px; font-weight: 600;"&gt;
+ END OF WORKLOG - 12 WEEKS COMPLETED
+&lt;/div&gt;</description></item></channel></rss>
