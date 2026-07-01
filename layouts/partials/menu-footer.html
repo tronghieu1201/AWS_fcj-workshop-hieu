@@ -1,40 +1,18 @@
-<p id="footer-meta">
-    <span id="footer-date" class="realtime-clock">...</span><br>
-    <a href="https://www.facebook.com/profile.php?id=61561660415335" target="_blank" rel="noopener">
-        Facebook
-    </a>
-</p>
-
-<script>
-(function() {
-    var el = document.getElementById('footer-date');
-
-    if (!el) {
-        return;
-    }
-
-    function pad(value) {
-        return value.toString().padStart(2, '0');
-    }
-
-    function updateDate() {
-        var now = new Date();
-
-        var day = pad(now.getDate());
-        var month = pad(now.getMonth() + 1);
-        var year = now.getFullYear();
-
-        var hours = pad(now.getHours());
-        var minutes = pad(now.getMinutes());
-        var seconds = pad(now.getSeconds());
-
-        el.textContent =
-            day + '/' + month + '/' + year +
-            ' ' +
-            hours + ':' + minutes + ':' + seconds;
-    }
-
-    updateDate();
-    setInterval(updateDate, 1000);
-})();
-</script>
+<left>
+    <br>
+    <br>
+    <b> Last Updated </b> <br>
+    <i>
+        <font color=orange>{{ now.Format "02-01-2006" }}</font>
+    </i>
+</left>
+<left>
+    <br>
+    <br>
+    <b> Team </b> <br>
+    <i>
+        <a href="https://www.facebook.com/groups/660548818043427" style="color:orange">First Cloud AI Journey</a>
+    </i>
+</left>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
