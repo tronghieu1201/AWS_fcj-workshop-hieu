@@ -5,72 +5,140 @@ chapter: true
 pre: "<b>1. </b>"
 ---
 
-<div class="worklog-page">
-  <header class="worklog-header">
-    <h1 class="worklog-title">NHẬT KÝ CÔNG VIỆC</h1>
-    <div class="worklog-divider" aria-hidden="true"></div>
-  </header>
+<style>
+.worklog-page {
+  margin: 20px 0;
+}
 
-  <section class="worklog-list" aria-label="Danh sách tuần làm việc">
-    <a class="worklog-button" href="./1.1-week1/">
-      <span class="worklog-week">Tuần 1</span>
-      <span class="worklog-desc">Làm quen với AWS Account, billing, và IAM...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.2-week2/">
-      <span class="worklog-week">Tuần 2</span>
-      <span class="worklog-desc">Tìm hiểu Amazon VPC và networking...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.3-week3/">
-      <span class="worklog-week">Tuần 3</span>
-      <span class="worklog-desc">Thực hành EC2, Kiro CLI, Lightsail và Auto Scaling...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.4-week4/">
-      <span class="worklog-week">Tuần 4</span>
-      <span class="worklog-desc">RDS, S3 Static Web, CloudWatch và Khởi động dự án...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.5-week5/">
-      <span class="worklog-week">Tuần 5</span>
-      <span class="worklog-desc">Bảo mật S3, IAM Cost Control và Backend Portfolio...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.6-week6/">
-      <span class="worklog-week">Tuần 6</span>
-      <span class="worklog-desc">Lambda Automation, Grafana, SSM và API Gateway...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.7-week7/">
-      <span class="worklog-week">Tuần 7</span>
-      <span class="worklog-desc">IAM Permission Boundary, Security Hub, WAF và Audit...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.8-week8/">
-      <span class="worklog-week">Tuần 8</span>
-      <span class="worklog-desc">AWS Backup, SSL/HTTPS, Docker, ECS Fargate và Vue build...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.9-week9/">
-      <span class="worklog-week">Tuần 9</span>
-      <span class="worklog-desc">CI/CD Serverless, SAM và Deploy Portfolio S3 + CloudFront...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.10-week10/">
-      <span class="worklog-week">Tuần 10</span>
-      <span class="worklog-desc">Cognito Authentication, SQS/SNS, CloudFront Error Pages...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.11-week11/">
-      <span class="worklog-week">Tuần 11</span>
-      <span class="worklog-desc">Vẽ sơ đồ kiến trúc, Kiểm thử End-to-End và viết báo cáo...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-    <a class="worklog-button" href="./1.12-week12/">
-      <span class="worklog-week">Tuần 12</span>
-      <span class="worklog-desc">Tổng kết kiến thức, bài học kinh nghiệm và hoàn thiện báo cáo...</span>
-      <span class="worklog-arrow">›</span>
-    </a>
-  </section>
+.worklog-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.worklog-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.worklog-table th {
+  background-color: #f2f2f2;
+  color: #222;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  border: 1px solid #ddd;
+}
+
+.worklog-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.worklog-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.worklog-week {
+  font-weight: 600;
+  color: #222;
+}
+
+.worklog-details-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #283e5b;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.worklog-details-btn:hover {
+  background-color: #004c99;
+  color: white !important;
+  text-decoration: none;
+}
+</style>
+
+<div class="worklog-page">
+  <h1 class="worklog-title">NHẬT KÝ CÔNG VIỆC</h1>
+
+  <table class="worklog-table">
+    <thead>
+      <tr>
+        <th>Tuần</th>
+        <th>Chủ đề</th>
+        <th>Chi tiết</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="worklog-week">Tuần 1</span></td>
+        <td>Làm quen với AWS Account, billing, và IAM...</td>
+        <td><a class="worklog-details-btn" href="./1.1-week1/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 2</span></td>
+        <td>Tìm hiểu Amazon VPC và networking...</td>
+        <td><a class="worklog-details-btn" href="./1.2-week2/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 3</span></td>
+        <td>Thực hành EC2, Kiro CLI, Lightsail và Auto Scaling...</td>
+        <td><a class="worklog-details-btn" href="./1.3-week3/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 4</span></td>
+        <td>RDS, S3 Static Web, CloudWatch và khởi động dự án...</td>
+        <td><a class="worklog-details-btn" href="./1.4-week4/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 5</span></td>
+        <td>Bảo mật S3, IAM Cost Control và Backend Portfolio...</td>
+        <td><a class="worklog-details-btn" href="./1.5-week5/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 6</span></td>
+        <td>Lambda Automation, Grafana, SSM và API Gateway...</td>
+        <td><a class="worklog-details-btn" href="./1.6-week6/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 7</span></td>
+        <td>IAM Permission Boundary, Security Hub, WAF và Audit...</td>
+        <td><a class="worklog-details-btn" href="./1.7-week7/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 8</span></td>
+        <td>AWS Backup, SSL/HTTPS, Docker, ECS Fargate và Vue build...</td>
+        <td><a class="worklog-details-btn" href="./1.8-week8/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 9</span></td>
+        <td>CI/CD Serverless, SAM và Deploy Portfolio S3 + CloudFront...</td>
+        <td><a class="worklog-details-btn" href="./1.9-week9/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 10</span></td>
+        <td>Cognito Authentication, SQS/SNS và CloudFront Error Pages...</td>
+        <td><a class="worklog-details-btn" href="./1.10-week10/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 11</span></td>
+        <td>Vẽ sơ đồ kiến trúc, kiểm thử End-to-End và viết báo cáo...</td>
+        <td><a class="worklog-details-btn" href="./1.11-week11/">Xem chi tiết</a></td>
+      </tr>
+      <tr>
+        <td><span class="worklog-week">Tuần 12</span></td>
+        <td>Tổng kết kiến thức, bài học kinh nghiệm và hoàn thiện báo cáo...</td>
+        <td><a class="worklog-details-btn" href="./1.12-week12/">Xem chi tiết</a></td>
+      </tr>
+    </tbody>
+  </table>
 </div>

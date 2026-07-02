@@ -2,6 +2,62 @@
 title: "Internship Report"
 ---
 
+<style>
+.profile-info-section {
+  display: flex !important;
+  gap: 24px !important;
+  align-items: stretch !important;
+  background: white !important;
+  border-radius: 16px !important;
+  padding: 24px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.profile-avatar {
+  flex-shrink: 0 !important;
+  display: flex !important;
+}
+
+.student-photo {
+  width: 315px !important;
+  max-width: 315px !important;
+  height: auto !important;
+  max-height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.profile-details {
+  flex: 1;
+  margin-top: 30px !important;
+}
+
+.student-info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-info-table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.student-info-table td:first-child {
+  font-weight: 600;
+  width: 180px;
+  color: #2d3748;
+}
+
+.student-info-table td:last-child {
+  color: #4a5568;
+}
+
+.student-info-table tr:last-child td {
+  border-bottom: none;
+}
+</style>
+
 # INTERNSHIP REPORT
 
 
